@@ -1,12 +1,13 @@
+const ApiError = require('../error/apiError')
 class MeetUpController {
     async getAll(req, res){
 
     }
-    async getOne(req, res){
-
+    async getOne(req, res, next){
+      
     }
     async create(req, res){
-        
+
     }
     async update(req, res){
 
@@ -16,4 +17,4 @@ class MeetUpController {
     }
 }
 
-module.exports = new UserController()
+module.exports = new MeetUpController()
