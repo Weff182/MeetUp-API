@@ -1,4 +1,6 @@
+const {MeetUp} = require('../models/models')
 const ApiError = require('../error/apiError')
+
 class MeetUpController {
     async getAll(req, res){
 
@@ -7,7 +9,9 @@ class MeetUpController {
       
     }
     async create(req, res){
-
+        const {title, description, keywords, eventInformation} = req.body
+        const meetUp = await MeetUp.create({title, description, keywords, eventInformation})
+        return res.json(meetUp)
     }
     async update(req, res){
 
