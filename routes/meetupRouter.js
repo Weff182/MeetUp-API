@@ -1,9 +1,12 @@
 const Router = require('express')
 const router = new Router()
+const meetUpRouter = require('../')
+const meetUpController = require('../controllers/meetupController')
 
-router.post('/', )
-router.get('/', (req, res) => {
-    res.json({message: 'all working'})
-})
+router.get('/', meetUpController.getAll)
+router.get('/id', meetUpController.getOne)
+router.post('/', meetUpController.create)
+router.patch('/id', meetUpController.update)
+router.delete('/id', meetUpController.delete)
 
 module.exports = router
