@@ -7,8 +7,10 @@ class MeetUpController {
         return res.json(meetUps)
     }
     async getOne(req, res, next){
-      
-    }
+        const {id} = req.params
+        const meetUp = await MeetUp.findOne({where: {id}})
+        return res.json(meetUp)
+     }
     async create(req, res){
         const {title, description, keywords, eventInformation} = req.body
         const meetUp = await MeetUp.create({title, description, keywords, eventInformation})
