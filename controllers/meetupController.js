@@ -1,32 +1,61 @@
 const {MeetUp} = require('../models/models')
 const ApiError = require('../error/apiError')
 
-
 class MeetUpController {
-    async getAll(req, res){
-        const meetUps = await MeetUp.findAll()
-        return res.json(meetUps)
+    async getAll(req, res, next){
+        try {
+            const meetUps = await MeetUp.findAll() 
+            return res.status(200).json(meetUps)
+        } catch (error) {
+           return next(ApiError.notFound('Meetups not found'))
+        }
     }
     async getOne(req, res, next){
-        const {id} = req.params
-        const meetUp = await MeetUp.findOne({where: {id}})
-        return res.json(meetUp)
-     }
-    async create(req, res){
-        const {title, description, keywords, eventInformation} = req.body
-        const meetUp = await MeetUp.create({title, description, keywords, eventInformation})
-        return res.json(meetUp)
+        try {
+            const {id} = req.params
+            const meetUp = await MeetUp.findOne({where: {id}})
+            if (!meetUp) {
+                throw new Error
+            }
+            return res.status(200).json(meetUp)
+        } catch (error) {
+            return next(ApiError.notFound('Meetup not found'))
+        }
     }
-    async update(req, res){
-        const {id} = req.params
-        const {description} = req.body
-        const meetUp = await MeetUp.update({description: description}, {where: {id}})
-        return res.json(meetUp)
+    async create(req, res, next){
+        try {
+            const {title, description, keywords, eventInformation} = req.body
+            const mettUp = await MeetUp.create({title, description, keywords, eventInformation})
+            return res.status(201).json(mettUp)
+        } catch (error) {
+            return next(ApiError.badRequest('The parameters are set incorrectly'))
+        }
     }
-    async delete(req, res){
-        const {id} = req.params
-        await MeetUp.destroy({where: {id}})
-        return res.json('meetup deleted')
+    async update(req, res, next){
+        try {
+            const {id} = req.params 
+            const {description} = req.body
+            if (!id || !description){
+                return next(ApiError.badRequest('The parameters are set incorrectly'))
+            }
+            const meetUp = await MeetUp.update({description: description}, {where: {id}, returning: true, plain: true})
+            return res.status(200).json(meetUp)
+        } catch (error) {
+            return next(ApiError.notFound('Meetup not found'))
+        }    
+    }
+    async delete(req, res, next){
+        try { 
+            const {id} = req.params
+            if (!id){
+                return next(ApiError.badRequest('The parameters are set incorrectly'))
+            }
+            await MeetUp.destroy({where: {id}})
+            return res.status(200).json(id)
+        } catch (error) {
+            return next(ApiError.notFound('Meetup not found'))
+        }
+     
     }
 }
 
