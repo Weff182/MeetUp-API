@@ -1,6 +1,7 @@
 const {MeetUp} = require('../models/models')
 const ApiError = require('../error/apiError')
 
+
 class MeetUpController {
     async getAll(req, res){
         const meetUps = await MeetUp.findAll()
@@ -17,10 +18,15 @@ class MeetUpController {
         return res.json(meetUp)
     }
     async update(req, res){
-
+        const {id} = req.params
+        const {description} = req.body
+        const meetUp = await MeetUp.update({description: description}, {where: {id}})
+        return res.json(meetUp)
     }
     async delete(req, res){
-
+        const {id} = req.params
+        await MeetUp.destroy({where: {id}})
+        return res.json('meetup deleted')
     }
 }
 
