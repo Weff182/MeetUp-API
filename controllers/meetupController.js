@@ -3,7 +3,8 @@ const ApiError = require('../error/apiError')
 
 class MeetUpController {
     async getAll(req, res){
-
+        const meetUps = await MeetUp.findAll()
+        return res.json(meetUps)
     }
     async getOne(req, res, next){
       
