@@ -5,7 +5,7 @@ const MeetUp = sequelize.define('meetUp', {
     id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
     title: {type: DataTypes.STRING, allowNull: false},
     description: {type: DataTypes.STRING, allowNull: false},
-    keywords: {type: DataTypes.STRING, allowNull: false}, /// Возможно ARRAY
+    keywords: {type: DataTypes.STRING, allowNull: false}, 
     eventInformation: {type: DataTypes.STRING, allowNull: false}
 })
 module.exports = {
