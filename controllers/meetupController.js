@@ -1,5 +1,6 @@
 const {MeetUp} = require('../models/models')
 const ApiError = require('../error/apiError')
+const {meetupDTO} = require('../dto/meetup.dto')
 
 class MeetUpController {
     async getAll(req, res, next){
@@ -23,8 +24,9 @@ class MeetUpController {
         }
     }
     async create(req, res, next){
-        try {
+        try {      
             const {title, description, keywords, eventInformation} = req.body
+            await meetupDTO.validateAsync(req.body)
             const mettUp = await MeetUp.create({title, description, keywords, eventInformation})
             return res.status(201).json(mettUp)
         } catch (error) {
