@@ -5,7 +5,8 @@ const meetupService = require('../service/meetupService')
 class MeetUpController {
     async getAll(req, res, next){
         try {
-            const meetUps = await meetupService.getAll()
+            const {title, keywords, limit, page, sort} = req.query
+            const meetUps = await meetupService.getAll(title, keywords, limit, page, sort)
             return res.status(200).json(meetUps)
         } catch (error) {
            return next(ApiError.notFound('Meetups not found'))
