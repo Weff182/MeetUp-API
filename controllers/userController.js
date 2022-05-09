@@ -20,7 +20,7 @@ class UserController {
             return res.json({token})
         } catch (error) {
             if(error.name === 'ValidationError'){
-                return next(ApiError.badRequest('The parameters must be a string')) 
+                return next(ApiError.badRequest('Invalid email address or password')) 
             } 
             return next(ApiError.notFound('Implicit error'))
         }    

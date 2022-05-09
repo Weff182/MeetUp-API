@@ -1,35 +1,35 @@
 const { MeetUp } = require('../models/models')
 
 class MeetUpService {
-    async getAll(title, keywords, limit, page, sort){
+    async getAll(title, userId, limit, page, sort){
         page = page || 1;
         limit = limit || 5;
         sort = sort || 0;
         let offset = page * limit - limit;
         let meetups
-        if (!title && !keywords){
+        if (!title && !userId){
             if(sort){
                return meetups = await MeetUp.findAll({order:[["id", 'ASC']], limit, offset})  
             }
             return meetups = await MeetUp.findAll({limit, offset})
         }
-        if (title && !keywords){
+        if (title && !userId){
             if(sort){
                 return meetups = await MeetUp.findAll({where: {title}, order:[["id", 'ASC']], limit, offset})
             }
             return meetups = await MeetUp.findAll({where: {title}, limit, offset})
         }
-        if (!title && keywords){
+        if (!title && userId){
             if(sort){
-                return meetups = await MeetUp.findAll({where: {keywords}, order:[["id", 'ASC']], limit, offset})
+                return meetups = await MeetUp.findAll({where: {userId}, order:[["id", 'ASC']], limit, offset})
             }
-            return meetups = await MeetUp.findAll({where: {keywords}, limit, offset})
+            return meetups = await MeetUp.findAll({where: {userId}, limit, offset})
         }
-        if (title && keywords){
+        if (title && userId){
             if(sort){
-                return meetups = await MeetUp.findAll({where: {title, keywords}, order:[["id", 'ASC']], limit, offset})
+                return meetups = await MeetUp.findAll({where: {title, userId}, order:[["id", 'ASC']], limit, offset})
             }
-            return meetups = await MeetUp.findAll({where: {title, keywords}, limit, offset})
+            return meetups = await MeetUp.findAll({where: {title, userId}, limit, offset})
         }
         return meetups
     }

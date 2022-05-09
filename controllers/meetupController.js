@@ -11,8 +11,8 @@ const decodedUser = (token) => {
 class MeetUpController {
     async getAll(req, res, next){
         try {
-            const {title, keywords, limit, page, sort} = req.query
-            const meetUps = await MeetupService.getAll(title, keywords, limit, page, sort)
+            const {title, limit, page, sort, userId} = req.query
+            const meetUps = await MeetupService.getAll(title, userId, limit, page, sort)
             return res.status(200).json(meetUps)
         } catch (error) {
            return next(ApiError.notFound('Meetups not found'))

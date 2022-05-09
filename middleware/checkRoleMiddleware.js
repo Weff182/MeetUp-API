@@ -17,7 +17,7 @@ module.exports = function(role){
             req.user = decoded
             next()
         } catch (error) {
-            res.status(401).json({message: 'User token is invalid'})
+            res.status(401).json({message: 'The user is not logged in'})
         }
     }
 }
