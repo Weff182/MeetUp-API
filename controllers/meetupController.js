@@ -1,6 +1,12 @@
 const ApiError = require('../error/apiError')
 const {meetupDTO} = require('../dto/meetup.dto')
 const meetupService = require('../service/meetupService')
+const jwt = require('jsonwebtoken')
+
+const decodedUser = (token) => {
+    return jwt.verify(token.split(' ')[1], process.env.SECRET_KEY);
+}
+
 
 class MeetUpController {
     async getAll(req, res, next){
@@ -27,10 +33,11 @@ class MeetUpController {
     async create(req, res, next){
         try {      
             await meetupDTO.validateAsync(req.body)
-            const mettUp = await meetupService.create(req.body)
+            const userId = decodedUser(req.headers.authorization)
+            const mettUp = await meetupService.create({...req.body, userId: userId.id})
             return res.status(201).json(mettUp)
         } catch (error) {
-            return next(ApiError.badRequest('The parameters are set incorrectly'))
+            return next(ApiError.badRequest('The parameters are set incorrectly 182'))
         }
     }
     async update(req, res, next){
