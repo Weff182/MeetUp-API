@@ -4,7 +4,8 @@
   "description": "CRUD REST Web API for working with meetUps",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "gen": "node ./swagger/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,7 +27,10 @@
     "jsonwebtoken": "^8.5.1",
     "pg": "^8.7.3",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.19.0"
+    "sequelize": "^6.19.0",
+    "swagger-autogen": "^2.21.1",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"

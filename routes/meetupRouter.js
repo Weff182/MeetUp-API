@@ -3,6 +3,7 @@ const router = new Router()
 const MeetUpController = require('../controllers/meetupController')
 const checkRole = require('../middleware/checkRoleMiddleware')
 
+
 router.get('/', MeetUpController.getAll)
 router.get('/:id', MeetUpController.getOne)
 router.post('/',checkRole('ADMIN'), MeetUpController.create)

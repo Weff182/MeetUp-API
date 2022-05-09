@@ -64,7 +64,7 @@ class MeetUpController {
             if (!meetup) {
                 throw new Error
             }
-            return res.status(200).json(id)
+            return res.status(200).json({id})
         } catch (error) {
             return next(ApiError.notFound('Meetup not found'))
         }
