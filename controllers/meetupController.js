@@ -1,6 +1,6 @@
 const ApiError = require('../error/apiError')
 const {meetupDTO} = require('../dto/meetup.dto')
-const meetupService = require('../service/meetupService')
+const MeetupService = require('../service/meetupService')
 const jwt = require('jsonwebtoken')
 
 const decodedUser = (token) => {
@@ -12,7 +12,7 @@ class MeetUpController {
     async getAll(req, res, next){
         try {
             const {title, keywords, limit, page, sort} = req.query
-            const meetUps = await meetupService.getAll(title, keywords, limit, page, sort)
+            const meetUps = await MeetupService.getAll(title, keywords, limit, page, sort)
             return res.status(200).json(meetUps)
         } catch (error) {
            return next(ApiError.notFound('Meetups not found'))
@@ -21,7 +21,7 @@ class MeetUpController {
     async getOne(req, res, next){
         try {
             const {id} = req.params
-            const meetUp = await meetupService.getOne(id)
+            const meetUp = await MeetupService.getOne(id)
             if (!meetUp) {
                 throw new Error
             }
@@ -34,10 +34,10 @@ class MeetUpController {
         try {      
             await meetupDTO.validateAsync(req.body)
             const userId = decodedUser(req.headers.authorization)
-            const mettUp = await meetupService.create({...req.body, userId: userId.id})
+            const mettUp = await MeetupService.create({...req.body, userId: userId.id})
             return res.status(201).json(mettUp)
         } catch (error) {
-            return next(ApiError.badRequest('The parameters are set incorrectly 182'))
+            return next(ApiError.badRequest('The parameters are set incorrectly'))
         }
     }
     async update(req, res, next){
@@ -48,7 +48,7 @@ class MeetUpController {
             if (!id || !description){
                 return next(ApiError.badRequest('The parameters are set incorrectly'))
             }
-            const meetUp = await meetupService.update(id, description)
+            const meetUp = await MeetupService.update(id, description)
             return res.status(200).json(meetUp)
         } catch (error) {
             if(error.name === 'ValidationError'){
@@ -60,7 +60,7 @@ class MeetUpController {
     async delete(req, res, next){
         try { 
             const {id} = req.params
-            const meetup = await meetupService.delete(id)
+            const meetup = await MeetupService.delete(id)
             if (!meetup) {
                 throw new Error
             }
