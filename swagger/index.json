@@ -1,0 +1,364 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "version": "1.0.0",
+    "title": "MeetUp API",
+    "description": "Meetup API for Modsen",
+    "contact": {
+      "name": "Maksim Zhuk",
+      "email": "weffomax@gmail.com",
+      "url": "https://github.com/Weff182"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://localhost:5000/",
+      "description": "Local server"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Meetups",
+      "description": "Meetups CRUD operations"
+    }
+  ],
+  "paths": {
+    "/api/meetups": {
+      "get": {
+        "tags": ["Meetups"],
+        "description": "Get all meetups in system",
+        "operationId": "getMeetUps",
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": null
+            },
+            "required": false
+          },
+          {
+            "name": "title",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": null
+            },
+            "required": false
+          },
+          {
+            "name": "userId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": null
+            },
+            "required": false
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": null
+            },
+            "required": false
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": null
+            },
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Meetups were obtained",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Meetups"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": ["Meetups"],
+        "description": "Create a meetup in the database",
+        "operationId": "CreateMeetUps",
+        "security": [{ "bearerAuth": [] }],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateMeetup"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Created"
+          }
+        }
+      }
+    },
+    "/api/meetups/{id}": {
+      "get": {
+        "tags": ["Meetups"],
+        "description": "Get meetup by id",
+        "operationId": "getMeetUp",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "schema": {
+              "type": "integer",
+              "default": null
+            },
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Meetup was obtained",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Meetup"
+                }
+              }
+            }
+          }
+        }
+      },
+      "patch": {
+        "tags": ["Meetups"],
+        "description": "Update meetup",
+        "operationId": "UpdateMeetUp",
+        "security": [{ "bearerAuth": [] }],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "schema": {
+              "type": "integer",
+              "default": null
+            },
+            "required": true
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReqUpdateMeetUp"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Meetup was updated",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UpdateMeetUp"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": ["Meetups"],
+        "description": "Delete meetup by id",
+        "operationId": "deleteMeetUp",
+        "security": [{ "bearerAuth": [] }],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "schema": {
+              "type": "integer",
+              "default": null
+            },
+            "required": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Meetup was obtained",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/deleteMeetUp"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    },
+    "schemas": {
+      "Meetup": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Meetup identification number",
+            "example": 1
+          },
+          "title": {
+            "type": "string",
+            "description": "meetups title",
+            "example": "Meetup 2022"
+          },
+          "description": {
+            "type": "string",
+            "description": "meetups description",
+            "example": "The first meetup this year"
+          },
+          "keywords": {
+            "type": "string",
+            "description": "meetups keywords",
+            "example": "Meetup, modsen, 2022"
+          },
+          "eventInformation": {
+            "type": "string",
+            "description": "meetups event Information",
+            "example": "May 15, Modsen"
+          },
+          "createdAt": {
+            "type": "string",
+            "description": "meetups created At",
+            "example": "2022-05-09T10:57:21.013Z"
+          },
+          "updatedAt": {
+            "type": "string",
+            "description": "meetups updated At",
+            "example": "2022-05-09T10:57:21.013Z"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "Identification number of the user who create meetup",
+            "example": 1
+          }
+        }
+      },
+      "Meetups": {
+        "type": "array",
+        "items": {
+          "$ref": "#/components/schemas/Meetup"
+        }
+      },
+      "CreateMeetup": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "meetups title",
+            "example": "Meetup 2022 test"
+          },
+          "description": {
+            "type": "string",
+            "description": "meetups description",
+            "example": "The first meetup this year"
+          },
+          "keywords": {
+            "type": "string",
+            "description": "meetups keywords",
+            "example": "Meetup, modsen, 2022"
+          },
+          "eventInformation": {
+            "type": "string",
+            "description": "meetups event Information",
+            "example": "May 15, Modsen"
+          }
+        }
+      },
+      "UpdateMeetUp": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Meetup identification number",
+            "example": 1
+          },
+          "title": {
+            "type": "string",
+            "description": "meetups title",
+            "example": "Meetup 2022"
+          },
+          "description": {
+            "type": "string",
+            "description": "meetups description",
+            "example": "NEW DESCRIPTION TEST SWAGGER"
+          },
+          "keywords": {
+            "type": "string",
+            "description": "meetups keywords",
+            "example": "Meetup, modsen, 2022"
+          },
+          "eventInformation": {
+            "type": "string",
+            "description": "meetups event Information",
+            "example": "May 15, Modsen"
+          },
+          "createdAt": {
+            "type": "string",
+            "description": "meetups created At",
+            "example": "2022-05-09T10:57:21.013Z"
+          },
+          "updatedAt": {
+            "type": "string",
+            "description": "meetups updated At",
+            "example": "2022-05-09T10:57:21.013Z"
+          },
+          "userId": {
+            "type": "integer",
+            "description": "Identification number of the user who create meetup",
+            "example": 1
+          }
+        }
+      },
+      "ReqUpdateMeetUp": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string",
+            "description": "meetups description",
+            "example": "NEW DESCRIPTION TEST SWAGGER"
+          }
+        }
+      },
+      "deleteMeetUp": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "meetups id",
+            "example": "2"
+          }
+        }
+      }
+    }
+  }
+}
