@@ -1,4 +1,5 @@
 const { Sequelize } = require("sequelize");
+const logger = require('./log/log')
 
 module.exports = new Sequelize(
   process.env.POSTGRES_NAME,
@@ -8,5 +9,6 @@ module.exports = new Sequelize(
     dialect: "postgres",
     host: process.env.POSTGRES_HOST,
     port: process.env.POSTGRES_PORT,
+    logging: (message) => {logger.info(message)}
   }
 );

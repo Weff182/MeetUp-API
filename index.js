@@ -5,6 +5,8 @@ const models = require("./models/models");
 const router = require("./routes/index");
 const errorHandler = require("./middleware/errorHandlingMidleware");
 const swaggerUi = require("swagger-ui-express");
+const logger = require("./log/log");
+
 
 const PORT = process.env.PORT;
 const app = express();
@@ -21,9 +23,9 @@ const start = async () => {
   try {
     await sequelize.authenticate();
     await sequelize.sync();
-    app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+    app.listen(PORT, () => logger.info(`Server started on port ${PORT}`));
   } catch (error) {
-    console.log(error);
+    //logger.error(error.message);
   }
 };
 start();
