@@ -65,7 +65,11 @@ class MeetUpService {
     return meetups;
   }
   async getOne(id) {
-    return await MeetUp.findOne({ where: { id } });
+    let meetup = await MeetUp.findOne({ where: { id } });
+    if(!meetup){
+      throw new Error({message: "Meetup not found"})
+    } 
+    return meetup
   }
   async create(meetup) {
     return await MeetUp.create(meetup);
