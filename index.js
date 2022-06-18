@@ -6,6 +6,11 @@ const router = require("./routes/index");
 const errorHandler = require("./middleware/errorHandlingMidleware");
 const swaggerUi = require("swagger-ui-express");
 const logger = require("./log/log");
+const fs = require('fs')
+const morgan = require('morgan')
+const path = require('path')
+
+const accessLogStream = fs.createWriteStream(path.join(__dirname, './log/access.log'), { flags: 'a' })
 
 
 const PORT = process.env.PORT;
@@ -14,6 +19,7 @@ const app = express();
 const swaggerDocument = require("./swagger/index.json");
 
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.use(morgan('combined', { stream: accessLogStream }))
 
 app.use(express.json());
 app.use("/api", router);
@@ -25,7 +31,7 @@ const start = async () => {
     await sequelize.sync();
     app.listen(PORT, () => logger.info(`Server started on port ${PORT}`));
   } catch (error) {
-    //logger.error(error.message);
+    logger.error(error.message);
   }
 };
 start();

@@ -67,7 +67,7 @@ class MeetUpService {
   async getOne(id) {
     let meetup = await MeetUp.findOne({ where: { id } });
     if(!meetup){
-      throw new Error({message: "Meetup not found"})
+      throw new Error("Meetup not found")
     } 
     return meetup
   }

@@ -3,6 +3,7 @@ const {meetupDTO} = require('../dto/meetup.dto')
 const MeetupService = require('../service/meetupService')
 const jwt = require('jsonwebtoken')
 
+
 const decodedUser = (token) => {
     return jwt.verify(token.split(' ')[1], process.env.SECRET_KEY);
 }
@@ -24,7 +25,7 @@ class MeetUpController {
             const meetUp = await MeetupService.getOne(id)
             return res.status(200).json(meetUp)
         } catch (error) {
-            return res.status(400).json(error.message)
+            return next(ApiError.badRequest(error.message))
         }
     }
     async create(req, res, next){

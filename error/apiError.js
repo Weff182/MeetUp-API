@@ -6,16 +6,19 @@ class ApiError extends Error {
   }
 
   static badRequest(message) {
-    return new ApiError(400, message);
-  }
-  static internal(message) {
-    return new ApiError(500, message);
+    let apiError = new ApiError(400, message);
+    apiError.name = 'Bad Request'
+    return apiError
   }
   static forbiden(message) {
-    return new ApiError(403, message);
+    let apiError = new ApiError(403, message);
+    apiError.name = 'Forbiden'
+    return apiError
   }
   static notFound(message) {
-    return new ApiError(404, message);
+    let apiError = new ApiError(403, message);
+    apiError.name = 'Not Found'
+    return apiError
   }
 }
 module.exports = ApiError;

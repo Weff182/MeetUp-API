@@ -1,0 +1,12 @@
+2022-06-17T12:30:05.240Z [ERROR  ] - Error: status[400], message: Meetup not found
+2022-06-17T12:35:00.177Z [ERROR  ] - bad Request: status[400], message: Meetup not found
+2022-06-17T12:43:08.465Z [ERROR  ] - Bad Request: status[400], message: Meetup not found
+2022-06-17T12:44:39.034Z [ERROR  ] - Bad Request: status[400], message: Meetup not found
+2022-06-17T12:49:33.919Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
+2022-06-17T13:39:20.750Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found function logger (req, res, next) {
+2022-06-17T13:40:29.863Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found function logger (req, res, next) {
+2022-06-17T13:41:02.177Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
+undefined [ERROR  ] [object Object] - Bad Request: [status 400], message: Meetup not found
+2022-06-18T11:10:19.272Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
+2022-06-18T11:11:32.020Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
+2022-06-18T11:11:35.308Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
