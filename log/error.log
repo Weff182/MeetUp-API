@@ -10,3 +10,52 @@ undefined [ERROR  ] [object Object] - Bad Request: [status 400], message: Meetup
 2022-06-18T11:10:19.272Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
 2022-06-18T11:11:32.020Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
 2022-06-18T11:11:35.308Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
+2022-06-19T14:27:33.766Z [ERROR  ] - Not Found: [status 403], message: The user exists
+2022-06-19T14:44:19.215Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-06-19T14:48:34.747Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-06-19T14:52:06.386Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-06-19T14:52:11.312Z [ERROR  ] - Bad Request: [status 400], message: неверное значение для целого числа: "asdas"
+2022-06-19T14:56:49.378Z [ERROR  ] - Bad Request: [status 400], message: столбец "nan" не существует
+2022-06-19T14:57:03.010Z [ERROR  ] - Bad Request: [status 400], message: столбец "nan" не существует
+2022-06-19T14:59:48.364Z [ERROR  ] - Bad Request: [status 400], message: "title" must be a string
+2022-06-19T15:04:55.554Z [ERROR  ] - Bad Request: [status 400], message: The description must be a string
+2022-06-19T15:07:08.706Z [ERROR  ] - Bad Request: [status 400], message: The description must be a string
+2022-06-19T15:07:18.323Z [ERROR  ] - Bad Request: [status 400], message: "description" must be a string
+2022-06-19T15:07:30.496Z [ERROR  ] - Bad Request: [status 400], message: Cannot read properties of null (reading 'length')
+2022-06-19T15:10:16.501Z [ERROR  ] - Bad Request: [status 400], message: Cannot read properties of null (reading 'length')
+2022-06-19T15:10:58.606Z [ERROR  ] - Bad Request: [status 400], message: meetup is not defined
+2022-06-19T15:12:34.313Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
+2022-06-19T15:13:56.469Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
+2022-06-19T15:13:59.800Z [ERROR  ] - Bad Request: [status 400], message: неверное значение для целого числа: "asdasd"
+2022-06-19T15:14:11.840Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
+2022-06-19T15:14:37.575Z [ERROR  ] - Bad Request: [status 400], message: "description" must be a string
+2022-06-19T15:14:41.919Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
+2022-06-19T15:15:41.813Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
+2022-06-19T15:17:24.699Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
+2022-06-19T15:19:05.688Z [ERROR  ] - Bad Request: [status 400], message: Meetup with this ID not found
+2022-06-19T15:19:13.457Z [ERROR  ] - Bad Request: [status 400], message: неверное значение для целого числа: "asdasd"
+2022-06-19T15:19:19.942Z [ERROR  ] - Bad Request: [status 400], message: Meetup with this ID not found
+2022-06-19T15:19:49.704Z [ERROR  ] - Bad Request: [status 400], message: Meetup with this ID not found
+2022-06-19T15:19:59.283Z [ERROR  ] - Bad Request: [status 400], message: "description" must be a string
+2022-06-19T15:21:08.730Z [ERROR  ] - Bad Request: [status 400], message: 
+2022-06-19T15:21:37.168Z [ERROR  ] - Bad Request: [status 400], message: Meetup with this ID not found
+2022-06-19T15:21:46.189Z [ERROR  ] - Bad Request: [status 400], message: Meetup with this ID not found
+2022-06-19T15:23:32.234Z [ERROR  ] - Bad Request: [status 400], message: Meetup with this ID not found
+2022-06-19T15:23:44.716Z [ERROR  ] - Bad Request: [status 400], message: неверное значение для целого числа: "ыфывфвы"
+2022-06-19T15:23:48.293Z [ERROR  ] - Bad Request: [status 400], message: Meetup with this ID not found
+2022-06-19T15:23:53.596Z [ERROR  ] - Bad Request: [status 400], message: Meetup with this ID not found
+2022-06-19T15:30:35.936Z [ERROR  ] - Not Found: [status 404], message: The user exists
+2022-06-19T15:34:32.555Z [ERROR  ] - Bad Request: [status 400], message: The user exists
+2022-06-19T15:35:16.588Z [ERROR  ] - Not Found: [status 404], message: The user exists
+2022-06-19T16:05:04.692Z [ERROR  ] - Not Found: [status 404], message: Meetup with this ID not found
+2022-06-19T16:05:10.718Z [ERROR  ] - Not Found: [status 404], message: Meetup with this ID not found
+2022-06-19T16:05:18.837Z [ERROR  ] - Not Found: [status 404], message: неверное значение для целого числа: "wqeq"
+2022-06-19T16:06:00.184Z [ERROR  ] - Bad Request: [status 400], message: неверное значение для целого числа: "wqeq"
+2022-06-19T16:06:05.480Z [ERROR  ] - Bad Request: [status 400], message: Meetup with this ID not found
+2022-06-19T16:06:25.236Z [ERROR  ] - Bad Request: [status 400], message: Meetup with this ID not found
+2022-06-19T16:10:41.358Z [ERROR  ] - Not Found: [status 404], message: ApiError.notFound is not a constructor
+2022-06-19T16:14:40.130Z [ERROR  ] - Not Found: [status 404], message: undefined
+2022-06-19T16:15:24.093Z [ERROR  ] - Not Found: [status 404], message: (intermediate value).badRequest is not a function
+2022-06-19T16:16:16.035Z [ERROR  ] - Not Found: [status 404], message: (intermediate value).badRequest is not a function
+2022-06-19T16:16:21.637Z [ERROR  ] - Bad Request: [status 400], message: undefined
+2022-06-19T16:16:50.469Z [ERROR  ] - Bad Request: [status 400], message: The user exists

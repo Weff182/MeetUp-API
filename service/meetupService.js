@@ -1,4 +1,5 @@
 const { MeetUp } = require("../models/models");
+const ApiError = require('../error/apiError');
 
 class MeetUpService {
   async getAll(title, userId, limit, page, sort) {
@@ -62,12 +63,15 @@ class MeetUpService {
         offset,
       }));
     }
+    if(!meetup){
+      throw new Error('Meetups not found')
+    } 
     return meetups;
   }
   async getOne(id) {
     let meetup = await MeetUp.findOne({ where: { id } });
     if(!meetup){
-      throw new Error("Meetup not found")
+      throw new Error('Meetup with this ID not found')
     } 
     return meetup
   }
@@ -75,13 +79,21 @@ class MeetUpService {
     return await MeetUp.create(meetup);
   }
   async update(id, description) {
+    let meetup = await MeetUp.findOne({ where: { id } })
+    if(!meetup){
+      throw new Error('Meetup with this ID not found')
+    } 
     const meetUp = await MeetUp.update(
-      { description: description },
+      { description },
       { where: { id }, returning: true, plain: true }
     );
     return meetUp[1].dataValues;
   }
   async delete(id) {
+    let meetup = await MeetUp.findOne({ where: { id } })
+    if(!meetup){
+      throw new Error('Meetup with this ID not found')
+    } 
     return await MeetUp.destroy({ where: { id } });
   }
 }

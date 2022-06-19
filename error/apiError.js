@@ -16,7 +16,7 @@ class ApiError extends Error {
     return apiError
   }
   static notFound(message) {
-    let apiError = new ApiError(403, message);
+    let apiError = new ApiError(404, message);
     apiError.name = 'Not Found'
     return apiError
   }

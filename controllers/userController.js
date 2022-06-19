@@ -10,19 +10,14 @@ class UserController {
       if (role && role !== "ADMIN") {
         return next(ApiError.badRequest("Inappropriate role"));
       }
-      if (!email || !password) {
-        return next(ApiError.badRequest("The parameters are set incorrectly"));
-      }
       const token = await UserService.registartion(email, password, role);
-      if (token.status === 400) {
-        return next(ApiError.notFound("The user exists"));
-      }
       return res.status(200).json({ token });
     } catch (error) {
-      if (error.name === "ValidationError") {
-        return next(ApiError.badRequest("Invalid email address or password"));
+      console.log(error)
+      if (error instanceof ApiError) {
+        return next(ApiError.badRequest(error.message));
       }
-      return next(ApiError.notFound("Implicit error"));
+      return next(ApiError.notFound(error.message));
     }
   }
   async login(req, res, next) {
