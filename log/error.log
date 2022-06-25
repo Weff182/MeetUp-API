@@ -59,3 +59,39 @@ undefined [ERROR  ] [object Object] - Bad Request: [status 400], message: Meetup
 2022-06-19T16:16:16.035Z [ERROR  ] - Not Found: [status 404], message: (intermediate value).badRequest is not a function
 2022-06-19T16:16:21.637Z [ERROR  ] - Bad Request: [status 400], message: undefined
 2022-06-19T16:16:50.469Z [ERROR  ] - Bad Request: [status 400], message: The user exists
+2022-06-25T11:15:57.029Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-06-25T11:40:12.425Z [ERROR  ] - Not Found: [status 404], message: meetup is not defined
+2022-06-25T11:41:18.304Z [ERROR  ] - Not Found: [status 404], message: meetup is not defined
+2022-06-25T11:41:36.264Z [ERROR  ] - Not Found: [status 404], message: meetup is not defined
+2022-06-25T11:41:44.203Z [ERROR  ] - Not Found: [status 404], message: meetup is not defined
+2022-06-25T11:41:56.210Z [ERROR  ] - Not Found: [status 404], message: meetup is not defined
+2022-06-25T11:42:29.318Z [ERROR  ] - Not Found: [status 404], message: meetup is not defined
+2022-06-25T11:42:52.430Z [ERROR  ] - Not Found: [status 404], message: meetup is not defined
+2022-06-25T11:44:22.712Z [ERROR  ] - Not Found: [status 404], message: Meetups not found
+2022-06-25T11:46:55.008Z [ERROR  ] - Not Found: [status 404], message: Meetups not found
+2022-06-25T11:50:18.097Z [ERROR  ] - Not Found: [status 404], message: Meetups not found
+2022-06-25T11:50:30.483Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-06-25T11:54:44.607Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
+2022-06-25T11:54:48.005Z [ERROR  ] - Bad Request: [status 400], message: "id" must be a number
+2022-06-25T11:55:02.389Z [ERROR  ] - Bad Request: [status 400], message: "id" must be a number
+2022-06-25T11:55:52.881Z [ERROR  ] - Bad Request: [status 400], message: Meetup not found
+2022-06-25T11:56:21.697Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-06-25T11:56:28.342Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-06-25T11:59:32.912Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-06-25T11:59:38.450Z [ERROR  ] - Not Found: [status 404], message: [object Object]
+2022-06-25T12:00:06.368Z [ERROR  ] - Not Found: [status 404], message: [object Object]
+2022-06-25T12:00:24.859Z [ERROR  ] - Not Found: [status 404], message: [object Object]
+2022-06-25T12:01:58.072Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-06-25T12:02:16.733Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-06-25T12:03:58.119Z [ERROR  ] - Not Found: [status 404], message: (intermediate value).status is not a function
+2022-06-25T12:04:09.550Z [ERROR  ] - Not Found: [status 404], message: (intermediate value).status is not a function
+2022-06-25T12:31:45.141Z [ERROR  ] - Not Found: [status 404], message: ApiError.badRequest is not a constructor
+2022-06-25T12:32:25.523Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-06-25T12:32:54.336Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-06-25T12:32:59.091Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-06-25T12:33:02.683Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-06-25T12:38:41.418Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-06-25T12:38:47.402Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-06-25T13:23:29.449Z [ERROR  ] - Bad Request: [status 400], message: The user exists
+2022-06-25T13:25:47.431Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-06-25T13:26:38.384Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
