@@ -8,7 +8,6 @@ const decodedUser = (token) => {
     return jwt.verify(token.split(' ')[1], process.env.SECRET_KEY);
 }
 
-
 class MeetUpController {
     async getAll(req, res, next){
         try {
