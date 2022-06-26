@@ -10,10 +10,19 @@ const generateJwt = (id, email, role) => {
 };
 
 class UserService {
+  async googleAuth(email, password, role='USER') {
+    const candidate = await User.findOne({ where: { email } });
+    if (candidate) {
+      return generateJwt(candidate.id, candidate.email, candidate.role);
+    }
+    const hashPassword = await bcrypt.hash(password, 5);
+    const user = await User.create({ email, role, password: hashPassword });
+    return generateJwt(user.id, user.email, user.role);
+  }
   async registartion(email, password, role) {
     const candidate = await User.findOne({ where: { email } });
     if (candidate) {
-      return ApiError.badRequest("The user exists");
+      throw new ApiError(400, "The user exists")
     }
     const hashPassword = await bcrypt.hash(password, 5);
     const user = await User.create({ email, role, password: hashPassword });
