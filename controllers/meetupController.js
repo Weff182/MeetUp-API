@@ -24,10 +24,14 @@ class MeetUpController {
             const meetUp = await MeetupService.getOne(id)
             return res.status(200).json(meetUp)
         } catch (error) {
-            if(error.status === 404){
-                return next(ApiError.notFound(error.message))
-            }
-            return next(ApiError.badRequest(error.message))
+            if (error.name === "ValidationError") {
+                return next(ApiError.badRequest("The parameter is incorect, ID must be a number"));
+            } 
+            if(error instanceof ApiError){
+                return res.status(error.status).json({message: error.message});
+            } else {
+                return res.status(500);
+            }    
         }
     }
     async create(req, res, next){
