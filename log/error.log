@@ -1,0 +1,1108 @@
+2022-07-25T16:13:47.272Z [ERROR  ] - app.listen is not a function
+2022-07-25T16:13:55.703Z [ERROR  ] - app.listen is not a function
+2022-07-25T16:15:11.951Z [ERROR  ] - app.listen is not a function
+2022-07-25T18:00:34.158Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-25T18:02:04.940Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-25T18:07:52.703Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-25T18:40:53.208Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-25T18:44:12.823Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-25T19:34:26.700Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-25T19:34:29.268Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-25T20:10:37.893Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-25T20:10:58.028Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-25T20:11:10.385Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-25T20:12:00.094Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-25T20:12:25.863Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-25T20:12:33.942Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-25T20:13:20.526Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-25T20:15:04.071Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-25T20:22:55.422Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-07-26T12:43:17.015Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-07-26T12:44:17.415Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-01T08:55:33.883Z [ERROR  ] - ������������ "GIGABYTE" �� ������ �������� ����������� (�� ������)
+2022-08-01T08:56:20.755Z [ERROR  ] - ������������ "GIGABYTE" �� ������ �������� ����������� (�� ������)
+2022-08-01T08:58:17.676Z [ERROR  ] - ������������ "GIGABYTE" �� ������ �������� ����������� (�� ������)
+2022-08-01T08:59:10.952Z [ERROR  ] - ������������ "GIGABYTE" �� ������ �������� ����������� (�� ������)
+2022-08-01T08:59:10.954Z [ERROR  ] - ������������ "GIGABYTE" �� ������ �������� ����������� (�� ������)
+2022-08-01T09:00:06.662Z [ERROR  ] - ������������ "GIGABYTE" �� ������ �������� ����������� (�� ������)
+2022-08-01T09:00:06.664Z [ERROR  ] - ������������ "GIGABYTE" �� ������ �������� ����������� (�� ������)
+2022-08-01T09:03:05.317Z [ERROR  ] - ������������ "GIGABYTE" �� ������ �������� ����������� (�� ������)
+2022-08-01T09:25:11.862Z [ERROR  ] - ������������ "GIGABYTE" �� ������ �������� ����������� (�� ������)
+2022-08-01T09:25:11.864Z [ERROR  ] - ������������ "GIGABYTE" �� ������ �������� ����������� (�� ������)
+2022-08-01T09:40:01.297Z [ERROR  ] - ������������ "GIGABYTE" �� ������ �������� ����������� (�� ������)
+2022-08-01T20:51:35.781Z [ERROR  ] - Error: [status 500], message: Unexpected error
+2022-08-01T20:51:55.602Z [ERROR  ] - Error: [status 500], message: Unexpected error
+2022-08-01T20:52:57.007Z [ERROR  ] - Error: [status 500], message: Unexpected error
+2022-08-02T07:22:38.463Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T07:36:48.132Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T07:38:11.444Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T07:38:42.202Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T07:40:11.122Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T07:47:10.036Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T07:49:34.585Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T07:51:13.381Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T07:51:41.408Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T07:53:33.373Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T07:54:14.677Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T09:16:46.074Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T09:26:57.798Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T09:26:57.873Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T09:35:39.389Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T09:35:39.446Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T09:36:52.112Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T09:36:52.174Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T09:38:04.851Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T09:38:04.904Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T09:50:44.591Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T10:02:45.282Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T10:02:45.311Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T10:03:38.408Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T10:04:56.022Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T10:04:56.081Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:18:59.820Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:18:59.881Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:22:04.643Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:22:04.715Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:23:00.706Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:23:00.776Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:27:49.169Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:27:49.231Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:32:32.889Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:32:32.950Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:34:40.512Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:34:40.566Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:37:37.152Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:37:37.209Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:38:16.906Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:38:16.964Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:38:17.013Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:42:08.939Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:42:08.996Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:42:09.044Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:50:21.591Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:50:21.661Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:50:21.710Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:51:16.439Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:51:16.499Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:51:16.548Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:51:31.512Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:51:31.584Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:51:31.635Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:52:10.060Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:52:10.129Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:52:10.179Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:52:45.590Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:52:45.644Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:52:45.694Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:53:31.118Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:53:31.190Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:53:31.244Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:56:08.153Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:56:08.211Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:56:08.256Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:58:29.095Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T11:58:29.155Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:58:29.210Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T11:58:29.257Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:01:07.451Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T12:01:07.506Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:01:07.553Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:01:07.611Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:02:30.526Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T12:02:30.587Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:02:30.658Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:02:30.735Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:04:35.033Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T12:04:35.102Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:04:35.146Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:04:35.178Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:05:31.224Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T12:05:31.305Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:05:31.371Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:05:31.412Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:11:33.326Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T12:11:33.382Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:11:33.434Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:11:33.492Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:13:31.813Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T12:13:31.870Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:13:31.924Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:18:26.247Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T12:18:26.317Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:18:26.374Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T12:18:26.432Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:00:05.200Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T13:00:05.237Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:00:05.289Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:00:05.340Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:02:52.923Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:02:52.946Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T13:02:52.980Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:02:53.028Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:02:53.078Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:04:33.277Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:04:33.323Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T13:04:33.358Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:04:33.403Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:04:33.455Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:24:09.809Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:24:09.848Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T13:24:09.884Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:24:09.934Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:24:09.998Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:30:00.091Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:30:00.130Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T13:30:00.165Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:30:00.214Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:30:00.273Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:30:42.322Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:30:42.364Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T13:30:42.401Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:30:42.447Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T13:30:42.499Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:09:16.496Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:09:16.555Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:09:16.593Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:09:16.640Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:09:16.688Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:11:05.499Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:11:05.537Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:11:05.575Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:11:05.621Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:11:05.673Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:14:30.647Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:14:30.690Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:14:30.724Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:14:30.773Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:14:30.822Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:15:43.904Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:15:43.943Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:15:43.977Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:15:44.022Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:15:44.072Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:16:13.727Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:16:13.766Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:16:13.802Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:16:13.850Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:16:13.904Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:19:16.297Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:19:16.342Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:19:16.374Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:19:16.412Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:19:16.456Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:20:44.678Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:20:44.707Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:20:44.755Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:20:44.797Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:20:44.838Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:22:17.387Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:22:17.424Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:22:17.453Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:22:17.493Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:22:17.550Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:22:45.508Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:22:45.544Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:22:45.570Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:22:45.611Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:22:45.654Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:24:11.405Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:24:11.439Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:24:11.466Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:24:11.507Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:24:11.549Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:24:53.846Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:24:53.882Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:24:53.908Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:24:53.950Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:24:53.991Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:26:37.196Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:26:37.228Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:26:37.258Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:26:37.301Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:26:37.341Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:40:48.130Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:40:48.160Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:40:48.191Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:40:48.230Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:40:48.273Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:41:32.639Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:41:32.669Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:41:32.701Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:41:32.740Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:41:32.782Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:43:06.239Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:43:06.274Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:43:06.305Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:43:06.342Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:43:06.389Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:45:23.830Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:45:23.860Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:45:23.891Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:45:23.929Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:45:23.974Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:46:51.255Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:46:51.289Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:46:51.319Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:46:51.357Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:46:51.406Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:47:05.834Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:47:05.864Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:47:05.893Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:47:05.933Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:47:05.976Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:51:42.981Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:51:43.013Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T14:51:43.042Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:51:43.078Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T14:51:43.124Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:05:39.301Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:05:39.329Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T16:05:39.362Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:05:39.414Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:05:39.458Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:06:06.593Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:06:06.624Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T16:06:06.652Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:06:06.694Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:06:06.739Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:13:08.656Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:13:08.685Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T16:13:08.718Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:13:08.771Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:13:08.815Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:18:24.691Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:18:24.722Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T16:18:24.748Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:18:24.793Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:18:24.835Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:20:28.539Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:20:28.570Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T16:20:28.597Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:20:28.641Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:20:28.685Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:21:58.244Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:21:58.274Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T16:21:58.303Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:21:58.344Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:21:58.387Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:30:36.208Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:30:36.237Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T16:30:36.280Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:30:36.324Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:30:36.364Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:41:56.108Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:41:56.139Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T16:41:56.168Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:41:56.210Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:41:56.254Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:49:27.711Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:49:27.743Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T16:49:27.776Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:49:27.821Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:49:27.871Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:52:16.992Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:52:17.024Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T16:52:17.055Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:52:17.098Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:52:17.141Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:52:35.891Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:52:35.922Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-02T16:52:35.948Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:52:35.986Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-02T16:52:36.029Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:37:32.262Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:37:32.280Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:37:32.291Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:37:32.314Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T16:38:15.078Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:38:15.097Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:38:15.106Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:38:15.131Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T16:41:00.556Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:41:00.572Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:41:00.582Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:41:00.603Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T16:43:11.216Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:43:11.233Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:43:11.242Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:43:11.263Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T16:46:09.641Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:46:09.657Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:46:09.666Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:46:09.688Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T16:46:54.290Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:46:54.306Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:46:54.315Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:46:54.334Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T16:55:55.186Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:55:55.213Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T16:55:55.244Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:55:55.283Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T16:55:55.329Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:28:36.598Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:28:36.622Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T17:28:36.645Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:28:36.685Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:28:36.725Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:29:12.380Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:29:12.407Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T17:29:12.436Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:29:12.472Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:29:12.507Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:30:29.038Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:30:29.063Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T17:30:29.091Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:30:29.129Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:30:29.166Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:31:39.957Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:31:39.981Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T17:31:40.009Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:31:40.046Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:31:40.080Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:36:05.182Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:36:05.210Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T17:36:05.235Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:36:05.276Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:36:05.311Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:36:27.461Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:36:27.486Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T17:36:27.515Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:36:27.551Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:36:27.588Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:38:12.437Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:38:12.468Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T17:38:12.492Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:38:12.529Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:38:12.567Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:39:10.669Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:39:10.695Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T17:39:10.723Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:39:10.757Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:39:10.794Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:40:09.091Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:40:09.120Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T17:40:09.144Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:40:09.177Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:40:09.215Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:40:38.365Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:40:38.391Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T17:40:38.415Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:40:38.463Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:40:38.503Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:41:35.137Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T17:44:52.221Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:44:52.247Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T17:44:52.276Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:44:52.314Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:44:52.352Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:47:36.535Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:47:36.560Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T17:47:36.585Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:47:36.631Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:47:36.671Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:51:10.538Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:51:10.569Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T17:51:10.593Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:51:10.631Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:51:10.673Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:52:50.529Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:52:50.556Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T17:52:50.582Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:52:50.620Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:52:50.660Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:56:24.383Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:56:24.422Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T17:56:24.451Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:56:24.492Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T17:56:24.529Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:04:35.322Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T18:04:35.333Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:04:35.365Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T18:04:35.400Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:04:35.441Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:04:35.476Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:06:57.091Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:06:57.093Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T18:06:57.107Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T18:06:57.117Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T18:06:57.147Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:06:57.194Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:06:57.237Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:14:40.342Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T18:14:40.350Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:14:40.357Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T18:14:40.366Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T18:14:40.377Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T18:14:40.410Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:14:40.455Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:14:40.497Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:37:16.380Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T18:37:16.397Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T18:37:16.407Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T18:37:16.454Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:37:16.481Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T18:37:16.515Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:37:16.559Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:37:16.599Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:39:04.198Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T18:39:04.213Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T18:39:04.222Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T18:39:04.255Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:39:04.282Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T18:39:04.316Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:39:04.364Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:39:04.408Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:39:33.581Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:39:33.590Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T18:39:33.608Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T18:39:33.614Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T18:39:33.619Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T18:39:33.631Z [ERROR  ] - Bad Request: [status 400], message: A user with such an email already exists
+2022-08-03T18:39:33.646Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:39:33.690Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:39:33.733Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:40:10.832Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T18:40:10.847Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T18:40:10.858Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T18:40:10.868Z [ERROR  ] - Bad Request: [status 400], message: A user with such an email already exists
+2022-08-03T18:40:20.846Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:40:20.874Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T18:40:20.899Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:40:20.936Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T18:40:20.977Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:28:24.039Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T19:28:24.054Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T19:28:24.064Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T19:28:34.099Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:28:34.127Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T19:28:34.151Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:28:34.188Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:28:34.228Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:30:25.370Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T19:30:25.388Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T19:30:25.401Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T19:30:25.411Z [ERROR  ] - Bad Request: [status 400], message: A user with such an email already exists
+2022-08-03T19:30:25.498Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:30:25.527Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:30:25.541Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:30:25.569Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T19:30:25.597Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:30:25.638Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:30:25.681Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:32:16.725Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:32:16.732Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T19:32:16.748Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T19:32:16.754Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:32:16.757Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T19:32:16.765Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:32:16.788Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T19:32:16.820Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:32:16.855Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:32:16.904Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:35:40.485Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T19:35:40.501Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T19:35:40.511Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T19:35:40.707Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:35:40.734Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T19:35:40.763Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:35:40.803Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:35:40.842Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:36:15.485Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T19:36:15.505Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T19:36:15.517Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T19:36:15.568Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:36:15.599Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T19:36:15.635Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:36:15.676Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:36:15.713Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:36:31.087Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T19:36:31.098Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:36:31.102Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T19:36:31.111Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T19:36:31.124Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T19:36:31.149Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:36:31.188Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:36:31.224Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:38:06.322Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T19:38:06.336Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T19:38:06.346Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T19:38:06.386Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:38:06.410Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T19:38:06.437Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:38:06.476Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:38:06.511Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:41:19.017Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T19:41:19.025Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:41:19.034Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T19:41:19.044Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T19:41:19.055Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T19:41:19.064Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T19:41:19.072Z [ERROR  ] - Bad Request: [status 400], message: A user with such an email already exists
+2022-08-03T19:41:19.079Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:41:19.117Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:41:19.154Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:42:23.399Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T19:42:23.401Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:42:23.414Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T19:42:23.424Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T19:42:23.429Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T19:42:23.446Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T19:42:23.457Z [ERROR  ] - Bad Request: [status 400], message: A user with such an email already exists
+2022-08-03T19:42:23.461Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:42:23.501Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:42:23.542Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:48:26.218Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T19:48:26.234Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T19:48:26.246Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T19:48:26.269Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T19:48:26.293Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:48:26.329Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:48:26.364Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T19:48:26.395Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:48:26.431Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T19:48:26.465Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:00:07.792Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:00:07.804Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T20:00:07.818Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T20:00:07.821Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T20:00:07.828Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T20:00:07.843Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T20:00:07.848Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:00:07.864Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:00:07.897Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:00:07.944Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:01:32.092Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T20:01:32.107Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T20:01:32.116Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T20:01:32.125Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:01:32.129Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T20:01:32.141Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:01:32.152Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T20:01:32.184Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:01:32.231Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:01:32.269Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:13:59.868Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T20:13:59.876Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:13:59.882Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T20:13:59.892Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T20:13:59.905Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T20:13:59.905Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T20:13:59.918Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:13:59.932Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:13:59.973Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:14:00.026Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:15:50.124Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T20:15:50.139Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T20:15:50.147Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:15:50.149Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T20:15:50.162Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T20:15:50.173Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:15:50.174Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T20:15:50.205Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:15:50.254Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:15:50.295Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:18:28.614Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-03T20:18:28.632Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-03T20:18:28.645Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T20:18:28.659Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T20:18:28.672Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:18:28.697Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:18:28.726Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T20:18:28.760Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:18:28.800Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:18:28.840Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:19:52.263Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T20:19:52.282Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T20:19:52.295Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:19:52.314Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:19:52.342Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T20:19:52.371Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:19:52.419Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:19:52.460Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:23:17.715Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T20:23:17.733Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T20:23:17.747Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:23:17.781Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:23:17.811Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T20:23:17.852Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:23:17.905Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:23:17.944Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:25:43.895Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:25:43.924Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T20:25:43.928Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T20:25:43.944Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T20:25:43.949Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:25:43.955Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:25:43.983Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:25:44.025Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:42:46.801Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T20:42:46.816Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T20:42:46.828Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:42:46.865Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:42:46.891Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T20:42:46.921Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:42:46.956Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:42:46.994Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:45:37.686Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T20:45:37.704Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T20:45:37.723Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:45:37.735Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:45:37.768Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T20:45:37.796Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:45:37.835Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:45:37.871Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:46:34.756Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T20:46:34.774Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T20:46:34.792Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:46:34.809Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:46:34.844Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T20:46:34.871Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:46:34.907Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:46:34.945Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:55:00.594Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T20:55:00.616Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T20:55:00.631Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:55:00.659Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:55:00.692Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T20:55:00.724Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:55:00.766Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:55:00.808Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:55:32.340Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T20:55:32.357Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T20:55:32.368Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:55:32.373Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:55:32.408Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T20:55:32.439Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:55:32.477Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:55:32.518Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:59:56.996Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T20:59:57.006Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:59:57.046Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:59:57.079Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T20:59:57.109Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:59:57.154Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T20:59:57.194Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:00:24.188Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:00:24.210Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:00:24.214Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:00:24.219Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:00:24.241Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:00:24.280Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:00:24.324Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:02:35.212Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:02:35.228Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:02:35.240Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:02:35.249Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:02:35.280Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:02:35.309Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:02:35.345Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:02:35.385Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:03:04.921Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:03:04.938Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:03:04.951Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:03:04.953Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:03:04.983Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:03:05.017Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:03:05.062Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:03:05.104Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:03:18.991Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:03:19.000Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:03:19.019Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:03:19.049Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:03:19.077Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:03:19.128Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:03:19.164Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:04:37.276Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:04:37.298Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:04:37.312Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:04:37.352Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:04:37.383Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:04:37.409Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:04:37.441Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:04:37.483Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:08:36.017Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:08:36.032Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:08:36.044Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:08:36.054Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:08:36.083Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:08:36.114Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:08:36.157Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:08:36.191Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:09:03.052Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:09:03.074Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:09:03.079Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:09:03.091Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:09:03.104Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:09:03.105Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:09:03.146Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:09:03.192Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:09:31.242Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:09:31.259Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:09:31.271Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:09:31.322Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:09:31.353Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:09:31.378Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:09:31.412Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:09:31.450Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:10:49.001Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:10:49.019Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:10:49.035Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:10:49.095Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:10:49.125Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:10:49.151Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:10:49.196Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:10:49.238Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:11:48.327Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:11:48.344Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:11:48.356Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:11:48.391Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:11:48.432Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:11:48.468Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:11:48.509Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:11:48.554Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:16:57.119Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:16:57.136Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:16:57.149Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:16:57.213Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:16:57.245Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:16:57.275Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:16:57.309Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:16:57.345Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:18:06.111Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:18:06.126Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:18:06.137Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:18:06.163Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:18:06.192Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:18:06.221Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:18:06.256Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:18:06.292Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:18:37.772Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:18:37.787Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:18:37.799Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:18:37.810Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:18:37.838Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:18:37.867Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:18:37.905Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:18:37.944Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:20:24.116Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:20:24.133Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:20:24.146Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:20:24.170Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:20:24.201Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:20:24.230Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:20:24.271Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:20:24.309Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:21:32.670Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:21:32.686Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:21:32.699Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:21:32.726Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:21:32.756Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:21:32.783Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:21:32.817Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:21:32.853Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:24:11.793Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:24:11.810Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:24:11.825Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:24:11.852Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:24:11.880Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:24:11.912Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:24:11.953Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:24:11.988Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:25:21.174Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:25:21.190Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:25:21.202Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:25:21.227Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:25:21.261Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:25:21.296Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:25:21.339Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:25:21.379Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:25:49.137Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:25:49.154Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:25:49.165Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:25:49.192Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:25:49.221Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:25:49.249Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:25:49.285Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:25:49.324Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:26:58.169Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:26:58.185Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:26:58.197Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:26:58.231Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:26:58.260Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:26:58.288Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:26:58.323Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:26:58.358Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:27:27.744Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-03T21:27:27.761Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-03T21:27:27.780Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:27:27.796Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:27:27.826Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-03T21:27:27.857Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:27:27.892Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-03T21:27:27.928Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:43:54.982Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T04:43:55.001Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T04:43:55.016Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:43:55.067Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:43:55.099Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T04:43:55.127Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:43:55.164Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:43:55.201Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:44:10.388Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T04:44:10.403Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T04:44:10.415Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:44:10.455Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:44:10.487Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T04:44:10.516Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:44:10.551Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:44:10.590Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:51:15.075Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T04:51:15.076Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:51:15.090Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T04:51:15.105Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T04:51:15.103Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:51:15.143Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:51:15.189Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:51:15.232Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:51:38.304Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T04:51:38.322Z [ERROR  ] - kek: [status 500], message: Unexpected error
+2022-08-04T04:51:39.930Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T04:51:39.946Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T04:51:39.958Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:51:39.985Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:51:40.017Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T04:51:40.048Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:51:40.086Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:51:40.125Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:52:35.271Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T04:52:35.284Z [ERROR  ] - kek: [status 500], message: Unexpected error
+2022-08-04T04:52:36.896Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T04:52:36.913Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T04:52:36.925Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:52:36.948Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:52:36.982Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T04:52:37.016Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:52:37.053Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:52:37.092Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:54:19.687Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T04:54:19.700Z [ERROR  ] - kek: [status 500], message: Unexpected error
+2022-08-04T04:54:21.323Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T04:54:21.341Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T04:54:21.354Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:54:21.411Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:54:21.444Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T04:54:21.475Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:54:21.514Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:54:21.557Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:55:00.620Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T04:55:00.636Z [ERROR  ] - kek: [status 500], message: Unexpected error
+2022-08-04T04:55:02.306Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T04:55:02.323Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T04:55:02.336Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:55:02.348Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:55:02.381Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T04:55:02.412Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:55:02.451Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:55:02.492Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:55:34.487Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T04:55:34.500Z [ERROR  ] - kek: [status 500], message: Unexpected error
+2022-08-04T04:55:36.076Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T04:55:36.096Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T04:55:36.109Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:55:36.154Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:55:36.188Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T04:55:36.213Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:55:36.247Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:55:36.285Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:59:03.506Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T04:59:03.519Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T04:59:05.153Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T04:59:05.175Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T04:59:05.190Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:59:05.253Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:59:05.283Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T04:59:05.307Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:59:05.343Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T04:59:05.384Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:03:39.676Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:03:39.692Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:03:43.727Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T05:03:43.744Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T05:03:43.760Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:03:43.805Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:03:43.835Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T05:03:43.863Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:03:43.903Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:03:43.940Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:04:35.282Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:04:35.295Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:04:36.985Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T05:04:36.999Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:04:37.005Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T05:04:37.018Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:04:37.029Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T05:04:37.058Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:04:37.102Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:04:37.140Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:05:33.749Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:05:33.766Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:05:35.787Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T05:05:35.808Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T05:05:35.821Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:05:35.888Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:05:35.921Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T05:05:35.952Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:05:35.988Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:05:36.027Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:07:19.390Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:07:19.411Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:07:21.244Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T05:07:21.262Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T05:07:21.276Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:07:21.303Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:07:21.336Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T05:07:21.364Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:07:21.403Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:07:21.445Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:08:09.205Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:08:09.221Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:08:11.074Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T05:08:11.091Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T05:08:11.106Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:08:11.124Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:08:11.155Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T05:08:11.185Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:08:11.224Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:08:11.268Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:12:47.596Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:12:47.609Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:12:49.222Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T05:12:49.238Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T05:12:49.249Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:12:49.273Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:12:49.305Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T05:12:49.335Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:12:49.376Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:12:49.411Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:29:16.577Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:29:16.596Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:29:18.533Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T05:29:18.550Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T05:29:18.564Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:29:18.638Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:29:18.669Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T05:29:18.699Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:29:18.742Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:29:18.783Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:30:27.488Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:30:27.504Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:30:29.237Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T05:30:29.255Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T05:30:29.273Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:30:29.274Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:30:29.301Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T05:30:29.330Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:30:29.372Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:30:29.405Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:32:08.598Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:32:08.619Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:32:10.318Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T05:32:10.335Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T05:32:10.348Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:32:10.424Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:32:10.460Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T05:32:10.485Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:32:10.523Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:32:10.558Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:39:19.356Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:39:19.377Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:39:21.067Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T05:39:21.084Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T05:39:21.097Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:39:21.248Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:39:21.274Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T05:39:21.308Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:39:21.345Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:39:21.380Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:50:23.861Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:50:23.878Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:50:25.667Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T05:50:25.686Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T05:50:25.699Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:51:25.204Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:51:25.223Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:51:27.243Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T05:51:27.259Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T05:51:27.271Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:51:27.427Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:54:33.620Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:54:33.638Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:54:35.635Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T05:54:35.652Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T05:54:35.667Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:54:35.887Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:54:35.921Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T05:54:35.968Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:56:44.849Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:56:44.866Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:56:46.566Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T05:56:46.582Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T05:56:46.597Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:56:46.793Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:56:46.828Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T05:56:46.873Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:56:46.918Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:56:46.968Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:57:16.977Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:57:16.999Z [ERROR  ] - Bad Request: [status 400], message: Invalid password
+2022-08-04T05:57:18.834Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T05:57:18.853Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T05:57:18.867Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:57:19.104Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:57:19.142Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T05:57:19.191Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:57:19.236Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T05:57:19.287Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:00:14.180Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T06:00:14.209Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T06:00:14.228Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:00:14.330Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:00:14.375Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T06:00:14.437Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:00:14.496Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:00:14.547Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:03:31.646Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T06:03:31.662Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T06:03:31.674Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:03:31.698Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:03:31.729Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T06:03:31.773Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:03:31.816Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:03:31.861Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:04:12.877Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T06:04:12.893Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T06:04:12.905Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:04:12.965Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:04:12.996Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T06:04:13.041Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:04:13.086Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:04:13.133Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:10:48.392Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T06:10:48.407Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T06:10:48.419Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:11:46.707Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T06:11:46.723Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T06:11:46.736Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:11:46.892Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:11:46.921Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T06:11:46.965Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:11:47.012Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:11:47.055Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:27:56.453Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-04T06:27:56.466Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-04T06:27:56.480Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:27:56.539Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:27:56.572Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-04T06:27:56.625Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:27:56.680Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-04T06:27:56.735Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect

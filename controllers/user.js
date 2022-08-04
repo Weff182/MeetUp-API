@@ -1,6 +1,6 @@
 const ApiError = require("../error/apiError");
 const { userDTO } = require("../dto/user.dto");
-const UserService = require("../service/userService");
+const UserService = require("../service/user");
 
 class UserController {
   async registartion(req, res, next) {
@@ -10,19 +10,16 @@ class UserController {
       if (role && role !== "ADMIN") {
         return next(ApiError.badRequest("Inappropriate role"));
       }
-      if (!email || !password) {
-        return next(ApiError.badRequest("The parameters are set incorrectly"));
-      }
       const token = await UserService.registartion(email, password, role);
-      if (token.status === 400) {
-        return next(ApiError.notFound("The user exists"));
-      }
       return res.status(200).json({ token });
     } catch (error) {
       if (error.name === "ValidationError") {
-        return next(ApiError.badRequest("Invalid email address or password"));
+        return next(ApiError.badRequest("The parameters is incorect"));
+      } 
+      if (error instanceof ApiError) {
+        return res.status(error.status).json({message: error.message});
       }
-      return next(ApiError.notFound("Implicit error"));
+      return res.status(500);
     }
   }
   async login(req, res, next) {
@@ -30,20 +27,16 @@ class UserController {
       const { email, password } = req.body;
       await userDTO.validateAsync({ email: email, password: password });
       const token = await UserService.login(email, password);
-      if (token.status === 404) {
-        return next(
-          ApiError.notFound("The user with such an email was not found")
-        );
-      }
-      if (token.status === 400) {
-        return next(ApiError.badRequest("Invalid password"));
-      }
       return res.status(200).json({ token });
     } catch (error) {
       if (error.name === "ValidationError") {
         return next(ApiError.badRequest("The parameters must be a string"));
       }
-      return next(ApiError.internal("Implicit error"));
+      if (error instanceof ApiError){
+        return res.status(error.status).json({message: error.message});
+      } else {
+        return res.status(500);
+      }  
     }
   }
   async check(req, res) {

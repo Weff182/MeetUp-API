@@ -10,10 +10,19 @@ const generateJwt = (id, email, role) => {
 };
 
 class UserService {
+  async googleAuth(email, password, role='USER') {
+    const candidate = await User.findOne({ where: { email } });
+    if (candidate) {
+      return generateJwt(candidate.id, candidate.email, candidate.role);
+    }
+    const hashPassword = await bcrypt.hash(password, 5);
+    const user = await User.create({ email, role, password: hashPassword });
+    return generateJwt(user.id, user.email, user.role);
+  }
   async registartion(email, password, role) {
     const candidate = await User.findOne({ where: { email } });
     if (candidate) {
-      return ApiError.badRequest("The user exists");
+      throw ApiError.badRequest('A user with such an email already exists')
     }
     const hashPassword = await bcrypt.hash(password, 5);
     const user = await User.create({ email, role, password: hashPassword });
@@ -22,16 +31,19 @@ class UserService {
   async login(email, password) {
     const user = await User.findOne({ where: { email } });
     if (!user) {
-      return ApiError.notFound("The user with such an email was not found");
+      throw ApiError.notFound("The user with such an email was not found");
     }
     let comparePassword = bcrypt.compareSync(password, user.password);
     if (!comparePassword) {
-      return ApiError.badRequest("Invalid password");
+      throw ApiError.badRequest("Invalid password");
     }
     return generateJwt(user.id, user.email, user.role);
   }
   async check(user) {
     return generateJwt(user.id, user.email, user.role);
+  }
+  async delete(id){
+    await User.destroy({ where: { id } });
   }
 }
 
