@@ -1,6 +1,6 @@
 const ApiError = require('../error/apiError')
 const {meetupBodyDTO, meetupQueryDTO, meetupParamDTO} = require('../dto/meetup.dto')
-const MeetupService = require('../service/meetupService')
+const MeetupService = require('../service/meetup')
 const jwt = require('jsonwebtoken')
 
 
@@ -24,7 +24,6 @@ class MeetUpController {
             } else {
                 return res.status(500);
             }
-
         }
     }
     async getOne(req, res, next){
@@ -80,8 +79,8 @@ class MeetUpController {
         try { 
             const {id} = req.params
             await meetupParamDTO.validateAsync(req.params)
-            await MeetupService.delete(id)
-            return res.status(200).json({id})
+            const deletedId = await MeetupService.delete(id)
+            return res.status(200).json({id: deletedId})
         } catch (error) {
             if (error.name === "ValidationError") {
                 return next(ApiError.badRequest("The parameters is incorect"));

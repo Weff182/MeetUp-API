@@ -1,6 +1,6 @@
 const Router = require("express");
 const router = new Router();
-const MeetUpController = require("../controllers/meetupController");
+const MeetUpController = require("../controllers/meetup");
 const checkRole = require("../middleware/checkRoleMiddleware");
 
 router.get("/", MeetUpController.getAll);

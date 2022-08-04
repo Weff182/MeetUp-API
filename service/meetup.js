@@ -8,7 +8,7 @@ class MeetUpService {
     sort = sort || 0;
     let offset = page * limit - limit;
     let sortMeetup = {
-      order: [["id", "ASC"]],
+      order: [["id", "DESC"]],
       limit,
       offset,
     };
@@ -58,14 +58,14 @@ class MeetUpService {
       });
     } 
     if (meetups.length === 0){
-      throw ApiError.badRequest('Meetup not found')
+      throw ApiError.notFound('Meetup not found')
     } 
     return meetups;
   }
   async getOne(id) {
     let meetup = await MeetUp.findOne({ where: { id } });
     if(!meetup){
-      throw ApiError.badRequest('Meetup not found')
+      throw ApiError.notFound('Meetup not found')
     } 
     return meetup
   }
@@ -75,7 +75,7 @@ class MeetUpService {
   async update(id, description) {
     let meetup = await MeetUp.findOne({ where: { id } })
     if(!meetup){
-      throw ApiError.badRequest('Meetup not found')
+      throw ApiError.notFound('Meetup not found')
     } 
     const meetUp = await MeetUp.update(
       { description },
@@ -86,10 +86,10 @@ class MeetUpService {
   async delete(id) {
     let meetup = await MeetUp.findOne({ where: { id } })
     if(!meetup){
-      throw ApiError.badRequest('Meetup not found')
+      throw ApiError.notFound('Meetup not found')
     } 
     await MeetUp.destroy({ where: { id } });
-    return
+    return id
   }
 }
 

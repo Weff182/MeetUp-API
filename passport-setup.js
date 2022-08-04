@@ -1,12 +1,11 @@
 const passport = require('passport')
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
-const userService = require('./service/userService');
+const userService = require('./service/user');
 require("dotenv").config();
 
 passport.serializeUser(function(user, done) {
   done(null, user)
 })
-
 passport.deserializeUser(function(user, done) {
   done(null, user)
 })
@@ -16,7 +15,7 @@ passport.use(new GoogleStrategy({
     clientSecret: process.env.GOOGLE_CLIENT_SECRET,
     callbackURL: "http://localhost:5000/api/auth/google/callback",
   },
-  async function(accessToken, refreshToken, profile, done) {
+  async function userInfo(accessToken, refreshToken, profile, done) {
     const { name, emails, photos } = profile;
     const token = await userService.googleAuth(emails[0].value, profile.id)
     const user = {
@@ -30,4 +29,3 @@ passport.use(new GoogleStrategy({
   })
 
 );
-
