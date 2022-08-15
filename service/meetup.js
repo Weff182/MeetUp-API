@@ -1,95 +1,100 @@
-const { MeetUp } = require("../models/models");
-const ApiError = require('../error/apiError')
+const { MeetUp } = require('../models/models');
+const ApiError = require('../error/apiError');
 
 class MeetUpService {
   async getAll(title, userId, limit, page, sort) {
-    page = page || 1;
-    limit = limit || 5;
-    sort = sort || 0;
-    let offset = page * limit - limit;
-    let sortMeetup = {
-      order: [["id", "DESC"]],
-      limit,
+    const getPage = page || 1;
+    const getLimit = limit || 5;
+    const getSort = sort || 0;
+    const offset = getPage * getLimit - getLimit;
+    const sortMeetup = {
+      order: [['id', 'DESC']],
+      getLimit,
       offset,
     };
     let meetups;
     if (!title && !userId) {
-      if (sort) {
+      if (getSort) {
         meetups = await MeetUp.findAll({
-          ...sortMeetup
+          ...sortMeetup,
         });
       }
-      meetups = await MeetUp.findAll({ limit, offset });
+      meetups = await MeetUp.findAll({ getLimit, offset });
     } else if (title && !userId) {
-      if (sort) {
+      if (getSort) {
         meetups = await MeetUp.findAll({
           where: { title },
-          ...sortMeetup
+          ...sortMeetup,
         });
       }
       meetups = await MeetUp.findAll({
         where: { title },
-        limit,
+        getLimit,
         offset,
       });
     } else if (!title && userId) {
-      if (sort) {
+      if (getSort) {
         meetups = await MeetUp.findAll({
           where: { userId },
-          ...sortMeetup
+          ...sortMeetup,
         });
       }
       meetups = await MeetUp.findAll({
         where: { userId },
-        limit,
+        getLimit,
         offset,
       });
     } else if (title && userId) {
-      if (sort) {
+      if (getSort) {
         meetups = await MeetUp.findAll({
           where: { title, userId },
-          ...sortMeetup
+          ...sortMeetup,
         });
       }
       meetups = await MeetUp.findAll({
         where: { title, userId },
-        limit,
+        getLimit,
         offset,
       });
-    } 
-    if (meetups.length === 0){
-      throw ApiError.notFound('Meetup not found')
-    } 
+    }
+    if (meetups.length === 0) {
+      throw ApiError.notFound('Meetup not found');
+    }
     return meetups;
   }
+
   async getOne(id) {
-    let meetup = await MeetUp.findOne({ where: { id } });
-    if(!meetup){
-      throw ApiError.notFound('Meetup not found')
-    } 
-    return meetup
+    const meetup = await MeetUp.findOne({ where: { id } });
+    if (!meetup) {
+      throw ApiError.notFound('Meetup not found');
+    }
+    return meetup;
   }
+
   async create(meetup) {
-    return await MeetUp.create(meetup);
+    const createdMeetup = await MeetUp.create(meetup);
+    return createdMeetup;
   }
+
   async update(id, description) {
-    let meetup = await MeetUp.findOne({ where: { id } })
-    if(!meetup){
-      throw ApiError.notFound('Meetup not found')
-    } 
+    const meetup = await MeetUp.findOne({ where: { id } });
+    if (!meetup) {
+      throw ApiError.notFound('Meetup not found');
+    }
     const meetUp = await MeetUp.update(
       { description },
-      { where: { id }, returning: true, plain: true }
+      { where: { id }, returning: true, plain: true },
     );
     return meetUp[1].dataValues;
   }
+
   async delete(id) {
-    let meetup = await MeetUp.findOne({ where: { id } })
-    if(!meetup){
-      throw ApiError.notFound('Meetup not found')
-    } 
+    const meetup = await MeetUp.findOne({ where: { id } });
+    if (!meetup) {
+      throw ApiError.notFound('Meetup not found');
+    }
     await MeetUp.destroy({ where: { id } });
-    return id
+    return id;
   }
 }
 

@@ -1,11 +1,11 @@
-require("dotenv").config();
-const sequelize = require("./db");
-require("./models/models");
-const {createServer} = require("./server")
+require('dotenv').config();
+const sequelize = require('./db');
+require('./models/models');
+const { createServer } = require('./server');
 
-const logger = require("./log/log");
+const logger = require('./log/log');
 
-const PORT = process.env.PORT;
+const { PORT } = process.env;
 const app = createServer();
 
 const start = async () => {
@@ -18,6 +18,3 @@ const start = async () => {
   }
 };
 start();
-
-
-

@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">90.47% </span>
+                <span class="strong">90.69% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>38/42</span>
+                <span class='fraction'>39/43</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">90.47% </span>
+                <span class="strong">90.69% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>38/42</span>
+                <span class='fraction'>39/43</span>
             </div>
         
             
@@ -159,7 +159,12 @@
 <a name='L94'></a><a href='#L94'>94</a>
 <a name='L95'></a><a href='#L95'>95</a>
 <a name='L96'></a><a href='#L96'>96</a>
-<a name='L97'></a><a href='#L97'>97</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">3x</span>
+<a name='L97'></a><a href='#L97'>97</a>
+<a name='L98'></a><a href='#L98'>98</a>
+<a name='L99'></a><a href='#L99'>99</a>
+<a name='L100'></a><a href='#L100'>100</a>
+<a name='L101'></a><a href='#L101'>101</a>
+<a name='L102'></a><a href='#L102'>102</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -222,6 +227,7 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">29x</span>
@@ -231,9 +237,12 @@
 <span class="cline-any cline-yes">27x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">46x</span>
 <span class="cline-any cline-yes">46x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-yes">2x</span>
@@ -243,6 +252,7 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">48x</span>
@@ -255,98 +265,103 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const { MeetUp } = require("../models/models");
-const ApiError = require('../error/apiError')
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const { MeetUp } = require('../models/models');
+const ApiError = require('../error/apiError');
 &nbsp;
 class MeetUpService {
   async getAll(title, userId, limit, page, sort) {
-    page = page || 1;
-    limit = limit || 5;
-    sort = sort || 0;
-    let offset = page * limit - limit;
-    let sortMeetup = {
-      order: [["id", "DESC"]],
-      limit,
+    const getPage = page || 1;
+    const getLimit = limit || 5;
+    const getSort = sort || 0;
+    const offset = getPage * getLimit - getLimit;
+    const sortMeetup = {
+      order: [['id', 'DESC']],
+      getLimit,
       offset,
     };
     let meetups;
     if (!title &amp;&amp; !userId) {
-      <span class="missing-if-branch" title="if path not taken" >I</span>if (sort) {
+      <span class="missing-if-branch" title="if path not taken" >I</span>if (getSort) {
 <span class="cstat-no" title="statement not covered" >        meetups = await MeetUp.findAll({</span>
-          ...sortMeetup
+          ...sortMeetup,
         });
       }
-      meetups = await MeetUp.findAll({ limit, offset });
+      meetups = await MeetUp.findAll({ getLimit, offset });
     } else if (title &amp;&amp; !userId) {
-      <span class="missing-if-branch" title="if path not taken" >I</span>if (sort) {
+      <span class="missing-if-branch" title="if path not taken" >I</span>if (getSort) {
 <span class="cstat-no" title="statement not covered" >        meetups = await MeetUp.findAll({</span>
           where: { title },
-          ...sortMeetup
+          ...sortMeetup,
         });
       }
       meetups = await MeetUp.findAll({
         where: { title },
-        limit,
+        getLimit,
         offset,
       });
     } else if (!title &amp;&amp; userId) {
-      <span class="missing-if-branch" title="if path not taken" >I</span>if (sort) {
+      <span class="missing-if-branch" title="if path not taken" >I</span>if (getSort) {
 <span class="cstat-no" title="statement not covered" >        meetups = await MeetUp.findAll({</span>
           where: { userId },
-          ...sortMeetup
+          ...sortMeetup,
         });
       }
       meetups = await MeetUp.findAll({
         where: { userId },
-        limit,
+        getLimit,
         offset,
       });
     } else <span class="missing-if-branch" title="else path not taken" >E</span>if (title &amp;&amp; userId) {
-      <span class="missing-if-branch" title="if path not taken" >I</span>if (sort) {
+      <span class="missing-if-branch" title="if path not taken" >I</span>if (getSort) {
 <span class="cstat-no" title="statement not covered" >        meetups = await MeetUp.findAll({</span>
           where: { title, userId },
-          ...sortMeetup
+          ...sortMeetup,
         });
       }
       meetups = await MeetUp.findAll({
         where: { title, userId },
-        limit,
+        getLimit,
         offset,
       });
-    } 
-    if (meetups.length === 0){
-      throw ApiError.notFound('Meetup not found')
-    } 
+    }
+    if (meetups.length === 0) {
+      throw ApiError.notFound('Meetup not found');
+    }
     return meetups;
   }
+&nbsp;
   async getOne(id) {
-    let meetup = await MeetUp.findOne({ where: { id } });
-    if(!meetup){
-      throw ApiError.notFound('Meetup not found')
-    } 
-    return meetup
+    const meetup = await MeetUp.findOne({ where: { id } });
+    if (!meetup) {
+      throw ApiError.notFound('Meetup not found');
+    }
+    return meetup;
   }
+&nbsp;
   async create(meetup) {
-    return await MeetUp.create(meetup);
+    const createdMeetup = await MeetUp.create(meetup);
+    return createdMeetup;
   }
+&nbsp;
   async update(id, description) {
-    let meetup = await MeetUp.findOne({ where: { id } })
-    if(!meetup){
-      throw ApiError.notFound('Meetup not found')
-    } 
+    const meetup = await MeetUp.findOne({ where: { id } });
+    if (!meetup) {
+      throw ApiError.notFound('Meetup not found');
+    }
     const meetUp = await MeetUp.update(
       { description },
-      { where: { id }, returning: true, plain: true }
+      { where: { id }, returning: true, plain: true },
     );
     return meetUp[1].dataValues;
   }
+&nbsp;
   async delete(id) {
-    let meetup = await MeetUp.findOne({ where: { id } })
-    if(!meetup){
-      throw ApiError.notFound('Meetup not found')
-    } 
+    const meetup = await MeetUp.findOne({ where: { id } });
+    if (!meetup) {
+      throw ApiError.notFound('Meetup not found');
+    }
     await MeetUp.destroy({ where: { id } });
-    return id
+    return id;
   }
 }
 &nbsp;
@@ -358,7 +373,7 @@ module.exports = new MeetUpService();
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-08-04T06:27:57.477Z
+                at 2022-08-11T18:27:39.744Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

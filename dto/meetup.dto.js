@@ -1,4 +1,4 @@
-const Joi = require("joi");
+const Joi = require('joi');
 
 const meetupBodyDTO = Joi.object({
   title: Joi.string(),
@@ -12,13 +12,13 @@ const meetupQueryDTO = Joi.object({
   limit: Joi.number(),
   page: Joi.number(),
   sort: Joi.number(),
-  userId: Joi.number()
-})
+  userId: Joi.number(),
+});
 
 const meetupParamDTO = Joi.object({
-  id: Joi.number()
-})
+  id: Joi.number(),
+});
 
 module.exports = {
-  meetupBodyDTO, meetupQueryDTO, meetupParamDTO
+  meetupBodyDTO, meetupQueryDTO, meetupParamDTO,
 };

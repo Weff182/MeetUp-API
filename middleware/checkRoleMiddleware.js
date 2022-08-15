@@ -1,25 +1,24 @@
-const jwt = require("jsonwebtoken");
+const jwt = require('jsonwebtoken');
+const ApiError = require('../error/apiError');
 
 module.exports = function (role) {
   return function (req, res, next) {
-    if (req.method === "OPTIONS") {
+    if (req.method === 'OPTIONS') {
       next();
     }
     try {
-      const token = req.headers.authorization.split(" ")[1];
-      if (!token) {
-        return res.status(401).json({ message: "The user is not logged in" });
-      }
+      const token = req.headers.authorization.split(' ')[1];
       const decoded = jwt.verify(token, process.env.SECRET_KEY);
       if (decoded.role !== role) {
-        return res
-          .status(403)
-          .json({ message: "The user does not have access" });
+        throw ApiError.forbiden('The user does not have access');
       }
       req.user = decoded;
       next();
     } catch (error) {
-      res.status(401).json({ message: "The user is not logged in" });
+      if (error.name === 'JsonWebTokenError' || error.name === 'TokenExpiredError') {
+        error.status = 401;
+      }
+      return next(new ApiError(error.name, error.status, error.message));
     }
   };
 };

@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">91.22% </span>
+                <span class="strong">91.37% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>52/57</span>
+                <span class='fraction'>53/58</span>
             </div>
         
             
@@ -164,14 +164,13 @@
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">21x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-yes">5x</span>
@@ -218,11 +217,29 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -238,127 +255,110 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span></td><td class="text"><pre class="prettyprint lang-js">const ApiError = require('../error/apiError')
-const {meetupBodyDTO, meetupQueryDTO, meetupParamDTO} = require('../dto/meetup.dto')
-const MeetupService = require('../service/meetup')
-const jwt = require('jsonwebtoken')
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const jwt = require('jsonwebtoken');
+const ApiError = require('../error/apiError');
+const { meetupBodyDTO, meetupQueryDTO, meetupParamDTO } = require('../dto/meetup.dto');
+const MeetupService = require('../service/meetup');
 &nbsp;
-&nbsp;
-const decodedUser = (token) =&gt; {
-    return jwt.verify(token.split(' ')[1], process.env.SECRET_KEY);
-}
+const decodedUser = (token) =&gt; jwt.verify(token.split(' ')[1], process.env.SECRET_KEY);
 &nbsp;
 class MeetUpController {
-    async getAll(req, res, next){
-        try {
-            const {title, limit, page, sort, userId} = req.query
-            await meetupQueryDTO.validateAsync(req.query)
-            const meetUps = await MeetupService.getAll(title, userId, limit, page, sort)
-            return res.status(200).json(meetUps)
-        } catch (error) {
-            if (error.name === "ValidationError") {
-                return next(ApiError.badRequest("The parameters is incorect"));
-            } 
-            if(error instanceof ApiError){
-                return res.status(error.status).json({message: error.message});
-            } else <span class="missing-if-branch" title="else path not taken" >E</span>{
-<span class="cstat-no" title="statement not covered" >                return res.status(500);</span>
-            }
-        }
+  getAll = async (req, res, next) =&gt; {
+    try {
+      const {
+        title, limit, page, sort, userId,
+      } = req.query;
+      await meetupQueryDTO.validateAsync(req.query);
+      const meetUps = await MeetupService.getAll(title, userId, limit, page, sort);
+      return res.status(200).json(meetUps);
+    } catch (error) {
+      if (error.name === 'ValidationError') {
+        return next(ApiError.badRequest('The parameters is incorect'));
+      }
+      <span class="missing-if-branch" title="else path not taken" >E</span>if (error instanceof ApiError) {
+        return res.status(error.status).json({ message: error.message });
+      }
+<span class="cstat-no" title="statement not covered" >      return res.status(500);</span>
     }
-    async getOne(req, res, next){
-        try { 
-            const {id} = req.params
-            await meetupParamDTO.validateAsync(req.params)
-            const meetUp = await MeetupService.getOne(id)
-            return res.status(200).json(meetUp)
-        } catch (error) {
-            if (error.name === "ValidationError") {
-                return next(ApiError.badRequest("The parameter is incorect, ID must be a number"));
-            } 
-            if(error instanceof ApiError){
-                return res.status(error.status).json({message: error.message});
-            } else <span class="missing-if-branch" title="else path not taken" >E</span>{
-<span class="cstat-no" title="statement not covered" >                return res.status(500);</span>
-            }    
-        }
+  };
+&nbsp;
+  async getOne(req, res, next) {
+    try {
+      const { id } = req.params;
+      await meetupParamDTO.validateAsync(req.params);
+      const meetUp = await MeetupService.getOne(id);
+      return res.status(200).json(meetUp);
+    } catch (error) {
+      if (error.name === 'ValidationError') {
+        return next(ApiError.badRequest('The parameter is incorect, ID must be a number'));
+      }
+      <span class="missing-if-branch" title="else path not taken" >E</span>if (error instanceof ApiError) {
+        return res.status(error.status).json({ message: error.message });
+      }
+<span class="cstat-no" title="statement not covered" >      return res.status(500);</span>
     }
-    async create(req, res, next){
-        try {      
-            await meetupBodyDTO.validateAsync(req.body)
-            const userId = decodedUser(req.headers.authorization)
-            const mettUp = await MeetupService.create({...req.body, userId: userId.id})
-            return res.status(201).json(mettUp)
-        } catch (error) {
-            <span class="missing-if-branch" title="else path not taken" >E</span>if (error.name === "ValidationError") {
-                return next(ApiError.badRequest("The parameters is incorect"));
-            } 
-<span class="cstat-no" title="statement not covered" >            return res.status(500);</span>
-        }
+  }
+&nbsp;
+  async create(req, res, next) {
+    try {
+      await meetupBodyDTO.validateAsync(req.body);
+      const userId = decodedUser(req.headers.authorization);
+      const mettUp = await MeetupService.create({ ...req.body, userId: userId.id });
+      return res.status(201).json(mettUp);
+    } catch (error) {
+      <span class="missing-if-branch" title="else path not taken" >E</span>if (error.name === 'ValidationError') {
+        return next(ApiError.badRequest('The parameters is incorect'));
+      }
+<span class="cstat-no" title="statement not covered" >      return res.status(500);</span>
     }
-    async update(req, res, next){
-        try {
-            const {id} = req.params 
-            const {description} = req.body
-            await meetupBodyDTO.validateAsync({description: description})
-            await meetupParamDTO.validateAsync(req.params)
-            const meetUp = await MeetupService.update(id, description)
-            return res.status(200).json(meetUp)
-        } catch (error) {
-            if (error.name === "ValidationError") {
-                return next(ApiError.badRequest("The parameters is incorect"));
-            } 
-            if(error instanceof ApiError){
-                return res.status(error.status).json({message: error.message});
-            } else <span class="missing-if-branch" title="else path not taken" >E</span>{
-<span class="cstat-no" title="statement not covered" >                return res.status(500);</span>
-            }   
-        }    
+  }
+&nbsp;
+  async update(req, res, next) {
+    try {
+      const { id } = req.params;
+      const { description } = req.body;
+      await meetupBodyDTO.validateAsync({ description });
+      await meetupParamDTO.validateAsync(req.params);
+      const meetUp = await MeetupService.update(id, description);
+      return res.status(200).json(meetUp);
+    } catch (error) {
+      if (error.name === 'ValidationError') {
+        return next(ApiError.badRequest('The parameters is incorect'));
+      }
+      <span class="missing-if-branch" title="else path not taken" >E</span>if (error instanceof ApiError) {
+        return res.status(error.status).json({ message: error.message });
+      }
+<span class="cstat-no" title="statement not covered" >      return res.status(500);</span>
     }
-    async delete(req, res, next){
-        try { 
-            const {id} = req.params
-            await meetupParamDTO.validateAsync(req.params)
-            const deletedId = await MeetupService.delete(id)
-            return res.status(200).json({id: deletedId})
-        } catch (error) {
-            if (error.name === "ValidationError") {
-                return next(ApiError.badRequest("The parameters is incorect"));
-            } 
-            if(error instanceof ApiError){
-                return res.status(error.status).json({message: error.message});
-            } else <span class="missing-if-branch" title="else path not taken" >E</span>{
-<span class="cstat-no" title="statement not covered" >                return res.status(500);</span>
-            }  
-        }
+  }
+&nbsp;
+  async delete(req, res, next) {
+    try {
+      const { id } = req.params;
+      await meetupParamDTO.validateAsync(req.params);
+      const deletedId = await MeetupService.delete(id);
+      return res.status(200).json({ id: deletedId });
+    } catch (error) {
+      if (error.name === 'ValidationError') {
+        return next(ApiError.badRequest('The parameters is incorect'));
+      }
+      <span class="missing-if-branch" title="else path not taken" >E</span>if (error instanceof ApiError) {
+        return res.status(error.status).json({ message: error.message });
+      }
+<span class="cstat-no" title="statement not covered" >      return res.status(500);</span>
     }
+  }
 }
 &nbsp;
-module.exports = new MeetUpController()</pre></td></tr></table></pre>
+module.exports = new MeetUpController();
+&nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-08-04T06:27:57.477Z
+                at 2022-08-11T18:27:39.744Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

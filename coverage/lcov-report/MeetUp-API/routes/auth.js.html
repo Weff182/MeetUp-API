@@ -97,7 +97,14 @@
 <a name='L32'></a><a href='#L32'>32</a>
 <a name='L33'></a><a href='#L33'>33</a>
 <a name='L34'></a><a href='#L34'>34</a>
-<a name='L35'></a><a href='#L35'>35</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">3x</span>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">3x</span>
@@ -119,60 +126,71 @@
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span></td><td class="text"><pre class="prettyprint lang-js">const Router = require("express");
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const Router = require('express');
+&nbsp;
 const router = new Router();
-const passport = require("passport");
-require('../passport-setup')
-const cookieSession = require("cookie-session");
-const isLoggedIn = require('../middleware/isLoggedIn')
+const passport = require('passport');
+require('../passport-setup');
+const cookieSession = require('cookie-session');
+const isLoggedIn = require('../middleware/isLoggedIn');
 &nbsp;
 router.use(cookieSession({
-    name: 'Maxim',
-    keys: ['key1', 'key2']
-  }))
-  
-router.use(passport.initialize())
-router.use(passport.session())
+  name: 'Maxim',
+  keys: ['key1', 'key2'],
+}));
 &nbsp;
-router.get("/", <span class="fstat-no" title="function not covered" >(r</span>eq, res) =&gt; <span class="cstat-no" title="statement not covered" >res.send("You are not logged in"))</span>;
-router.get("/failed", <span class="fstat-no" title="function not covered" >(r</span>eq, res) =&gt; <span class="cstat-no" title="statement not covered" >res.send("You failed to login"))</span>;
-router.get('/good', isLoggedIn, <span class="fstat-no" title="function not covered" >(r</span>eq, res) =&gt; <span class="cstat-no" title="statement not covered" >res.send(JSON.stringify({token: req.user.token})))</span>;
+router.use(passport.initialize());
+router.use(passport.session());
 &nbsp;
-router.get('/google',
-  passport.authenticate('google', { scope: ['profile', 'email'] }));
+router.get('/', <span class="fstat-no" title="function not covered" >(r</span>eq, res) =&gt; <span class="cstat-no" title="statement not covered" >res.send('You are not logged in'))</span>;
+router.get('/failed', <span class="fstat-no" title="function not covered" >(r</span>eq, res) =&gt; <span class="cstat-no" title="statement not covered" >res.send('You failed to login'))</span>;
+router.get('/good', isLoggedIn, <span class="fstat-no" title="function not covered" >(r</span>eq, res) =&gt; <span class="cstat-no" title="statement not covered" >res.send(JSON.stringify({ token: req.user.token })))</span>;
 &nbsp;
-router.get('/google/callback', 
+router.get(
+  '/google',
+  passport.authenticate('google', { scope: ['profile', 'email'] }),
+);
+&nbsp;
+router.get(
+  '/google/callback',
   passport.authenticate('google', { failureRedirect: 'api/auth/failed' }),
-<span class="fstat-no" title="function not covered" >  fu</span>nction(req, res) {
+<span class="fstat-no" title="function not covered" >  (r</span>eq, res) =&gt; {
 <span class="cstat-no" title="statement not covered" >    res.redirect('/api/auth/good');</span>
-  });
+  },
+);
 &nbsp;
 router.get('/logout', <span class="fstat-no" title="function not covered" >(r</span>eq, res) =&gt; {
 <span class="cstat-no" title="statement not covered" >  req.session = null;</span>
 <span class="cstat-no" title="statement not covered" >  req.logout();</span>
-<span class="cstat-no" title="statement not covered" >  res.redirect('/api/auth')</span>
-})
+<span class="cstat-no" title="statement not covered" >  res.redirect('/api/auth');</span>
+});
 &nbsp;
-module.exports = router;</pre></td></tr></table></pre>
+module.exports = router;
+&nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-08-04T06:27:57.477Z
+                at 2022-08-11T18:27:39.744Z
             </div>
         <script src="../../prettify.js"></script>
         <script>

@@ -1106,3 +1106,159 @@
 2022-08-04T06:27:56.625Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
 2022-08-04T06:27:56.680Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
 2022-08-04T06:27:56.735Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T14:44:47.064Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-11T14:44:47.086Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-11T14:44:47.111Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T14:44:47.210Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T14:44:47.260Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-11T14:44:47.325Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T14:44:47.386Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T14:44:47.450Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T15:04:57.432Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-11T15:04:57.448Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-11T15:04:57.464Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T15:04:57.598Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T15:04:57.645Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-11T15:04:57.703Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T15:04:57.768Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T15:04:57.832Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T15:50:42.046Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-11T15:50:42.064Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-11T15:50:42.082Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T15:50:42.176Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T15:50:42.219Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-11T15:50:42.280Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T15:50:42.347Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T15:50:42.405Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:10:23.284Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-11T18:10:23.302Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-11T18:10:23.316Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:10:23.336Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-11T18:12:38.916Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-11T18:12:38.933Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-11T18:12:38.948Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:12:39.033Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:12:39.078Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-11T18:12:39.139Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:12:39.198Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:12:39.262Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:13:27.065Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-11T18:13:27.080Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-11T18:13:27.094Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:13:27.199Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:13:27.242Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-11T18:13:27.302Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:13:27.365Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:13:27.428Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:22:26.900Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-11T18:22:26.916Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-11T18:22:26.933Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:22:27.019Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:22:27.071Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-11T18:22:27.135Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:22:27.195Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:22:27.260Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:24:27.216Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-11T18:24:27.231Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-11T18:24:27.245Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:24:27.352Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:24:27.391Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-11T18:24:27.453Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:24:27.512Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:24:27.583Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:27:38.417Z [ERROR  ] - Bad Request: [status 400], message: The parameters must be a string
+2022-08-11T18:27:38.433Z [ERROR  ] - Bad Request: [status 400], message: Inappropriate role
+2022-08-11T18:27:38.451Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:27:38.714Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:27:38.750Z [ERROR  ] - Bad Request: [status 400], message: The parameter is incorect, ID must be a number
+2022-08-11T18:27:38.809Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:27:38.868Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-11T18:27:38.930Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-14T14:28:10.335Z [ERROR  ] - errorHandler is not defined
+2022-08-14T14:48:38.283Z [ERROR  ] - Bad Request: [status KEKW MAX 400], message: The parameters is incorect
+2022-08-14T14:59:40.748Z [ERROR  ] - Not Found: [status 404], message: sdasdasdasd
+2022-08-14T19:49:37.742Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-08-14T19:50:46.048Z [ERROR  ] - Not Found: [status 404], message: meetup not Found
+2022-08-14T19:52:15.727Z [ERROR  ] - Not Found: [status 404], message: meetup not Found
+2022-08-14T19:58:45.729Z [ERROR  ] - Bad Request: [status 400], message: The parameters is incorect
+2022-08-14T20:06:04.355Z [ERROR  ] -  Internal Server Error: [status 500], message: 404
+2022-08-14T20:06:46.326Z [ERROR  ] -  Internal Server Error: [status 500], message: 404
+2022-08-14T20:07:18.524Z [ERROR  ] -  Internal Server Error: [status 500], message: [object Object]
+2022-08-14T20:14:57.842Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-08-14T20:17:16.415Z [ERROR  ] - Not Found: [status WWE 404], message: Meetup not found
+2022-08-14T20:19:35.980Z [ERROR  ] - Error: [status 404], message: Meetup not found
+2022-08-14T20:28:49.667Z [ERROR  ] - Error: [status 404], message: Meetup not found
+2022-08-14T20:29:27.302Z [ERROR  ] - Bad Request: [status 400], message: "value" must be of type object
+2022-08-14T20:31:01.702Z [ERROR  ] - Bad Request: [status 400], message: "value" must be of type object
+2022-08-14T20:34:00.843Z [ERROR  ] - Bad Request: [status 400], message: "value" must be of type object
+2022-08-14T20:34:21.887Z [ERROR  ] - Bad Request: [status 400], message: "value" must be of type object
+2022-08-14T20:34:51.817Z [ERROR  ] - Bad Request: [status 400], message: "value" must be of type object
+2022-08-14T20:39:53.827Z [ERROR  ] - Bad Request: [status 400], message: "value" must be of type object
+2022-08-14T20:40:11.511Z [ERROR  ] - Error: [status 404], message: Meetup not found
+2022-08-14T20:40:28.652Z [ERROR  ] - Bad Request: [status 400], message: "id" must be a number
+2022-08-14T20:41:38.538Z [ERROR  ] - Bad Request: [status 400], message: "id" must be a number
+2022-08-14T20:43:07.446Z [ERROR  ] - Error: [status undefined], message: неверное значение для целого числа: "123s"
+2022-08-14T20:43:56.850Z [ERROR  ] - Error: [status undefined], message: неверное значение для целого числа: "123s"
+2022-08-14T20:45:00.372Z [ERROR  ] - Error: [status undefined], message: неверное значение для целого числа: "123s"
+2022-08-14T20:48:27.277Z [ERROR  ] - Error: [status undefined], message: неверное значение для целого числа: "123s"
+2022-08-14T20:49:02.441Z [ERROR  ] - Bad Request: [status 400], message: "id" must be a number
+2022-08-14T20:49:48.701Z [ERROR  ] - Bad Request: [status 400], message: "id" must be a number
+2022-08-14T20:49:51.231Z [ERROR  ] - Error: [status 404], message: Meetup not found
+2022-08-14T20:50:13.442Z [ERROR  ] - Error: [status Not Found], message: 404
+2022-08-14T20:50:37.353Z [ERROR  ] - Error: [status 404], message: Meetup not found
+2022-08-14T20:53:15.163Z [ERROR  ] - Not Found: [status Meetup not found], message: undefined
+2022-08-14T20:55:09.469Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-08-14T20:55:19.380Z [ERROR  ] - Bad Request: [status 400], message: "id" must be a number
+2022-08-14T20:55:57.646Z [ERROR  ] - Bad Request: [status 400], message: "id" must be a number
+2022-08-14T20:56:00.618Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-08-14T21:10:26.306Z [ERROR  ] - Unauthorized: [status 401], message: jwt expired
+2022-08-14T21:13:46.762Z [ERROR  ] - TokenExpiredError: [status undefined], message: jwt expired
+2022-08-14T21:14:46.388Z [ERROR  ] - TokenExpiredError: [status undefined], message: jwt expired
+2022-08-14T21:16:18.182Z [ERROR  ] - TokenExpiredError: [status undefined], message: jwt expired
+2022-08-14T21:17:13.271Z [ERROR  ] - Unauthorized: [status 401], message: jwt expired
+2022-08-14T21:17:23.614Z [ERROR  ] - Unauthorized: [status 401], message: jwt expired
+2022-08-14T21:17:35.942Z [ERROR  ] - Unauthorized: [status 401], message: jwt expired
+2022-08-14T21:18:37.023Z [ERROR  ] - Unauthorized: [status 401], message: The user does not have access
+2022-08-14T21:23:43.170Z [ERROR  ] - JsonWebTokenError: [status 401], message: invalid token
+2022-08-14T21:24:15.715Z [ERROR  ] - Forbiden: [status 403], message: The user does not have access
+2022-08-14T21:25:04.182Z [ERROR  ] - TokenExpiredError: [status undefined], message: jwt expired
+2022-08-14T21:27:56.234Z [ERROR  ] - Forbiden: [status 403], message: The user does not have access
+2022-08-14T21:28:28.376Z [ERROR  ] - Forbiden: [status 403], message: The user does not have access
+2022-08-14T21:28:35.262Z [ERROR  ] - JsonWebTokenError: [status undefined], message: invalid token
+2022-08-14T21:28:54.793Z [ERROR  ] - JsonWebTokenError: [status 401], message: invalid token
+2022-08-14T21:30:38.039Z [ERROR  ] - TokenExpiredError: [status undefined], message: jwt expired
+2022-08-14T21:31:20.411Z [ERROR  ] - TokenExpiredError: [status undefined], message: jwt expired
+2022-08-14T21:33:45.023Z [ERROR  ] - TokenExpiredError: [status undefined], message: jwt expired
+2022-08-14T21:33:52.969Z [ERROR  ] - JsonWebTokenError: [status 401], message: invalid token
+2022-08-14T21:34:22.820Z [ERROR  ] - JsonWebTokenError: [status undefined], message: invalid token
+2022-08-14T21:34:42.507Z [ERROR  ] - JsonWebTokenError: [status 401], message: invalid token
+2022-08-14T21:34:46.195Z [ERROR  ] - TokenExpiredError: [status 401], message: jwt expired
+2022-08-15T05:53:36.818Z [ERROR  ] - TokenExpiredError: [status 401], message: jwt expired
+2022-08-15T05:54:43.863Z [ERROR  ] - Bad Request: [status 400], message: "title" must be a string
+2022-08-15T05:55:06.719Z [ERROR  ] - Bad Request: [status 400], message: "limit" must be a number
+2022-08-15T05:55:13.192Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-08-15T05:55:44.185Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-08-15T05:56:06.613Z [ERROR  ] - TokenExpiredError: [status 401], message: jwt expired
+2022-08-15T05:56:11.251Z [ERROR  ] - TokenExpiredError: [status 401], message: jwt expired
+2022-08-15T05:56:27.010Z [ERROR  ] - TokenExpiredError: [status 401], message: jwt expired
+2022-08-15T05:59:50.883Z [ERROR  ] - TokenExpiredError: [status 401], message: jwt expired
+2022-08-15T05:59:58.418Z [ERROR  ] - TokenExpiredError: [status 401], message: jwt expired
+2022-08-15T06:00:16.215Z [ERROR  ] - TokenExpiredError: [status 401], message: jwt expired
+2022-08-15T06:00:30.485Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-08-15T06:04:34.645Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-08-15T06:04:40.217Z [ERROR  ] - Bad Request: [status 400], message: "id" must be a number
+2022-08-15T06:04:46.682Z [ERROR  ] - Not Found: [status 404], message: Meetup not found
+2022-08-15T06:14:56.922Z [ERROR  ] - Bad Request: [status 400], message: "id" must be a number
+2022-08-15T06:24:59.741Z [ERROR  ] - Bad Request: [status 400], message: "password" must be a string
+2022-08-15T06:25:25.364Z [ERROR  ] - Bad Request: [status 400], message: "email" must be a valid email
+2022-08-15T06:32:41.780Z [ERROR  ] - Bad Request: [status 400], message: "email" must be a valid email
+2022-08-15T06:33:13.857Z [ERROR  ] - Bad Request: [status 400], message: "role" must be of type object
+2022-08-15T06:33:25.833Z [ERROR  ] - Bad Request: [status 400], message: "role" must be of type object
+2022-08-15T06:34:42.929Z [ERROR  ] - Bad Request: [status 400], message: A user with such an email already exists
+2022-08-15T06:34:49.715Z [ERROR  ] - Bad Request: [status 400], message: "role" must be [ADMIN]
+2022-08-15T06:35:08.688Z [ERROR  ] - Bad Request: [status 400], message: A user with such an email already exists
+2022-08-15T06:41:10.000Z [ERROR  ] - Bad Request: [status 400], message: A user with such an email already exists
+2022-08-15T06:44:51.399Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-15T06:45:00.295Z [ERROR  ] - Bad Request: [status 400], message: "password" must be a string
+2022-08-15T06:45:04.180Z [ERROR  ] - Not Found: [status 404], message: The user with such an email was not found
+2022-08-15T06:53:32.922Z [ERROR  ] - JsonWebTokenError: [status 401], message: invalid token
