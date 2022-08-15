@@ -3,10 +3,19 @@ module.exports = {
     browser: true,
     commonjs: true,
     es2021: true,
+    jest: true,
   },
-  extends: "eslint:recommended",
+  extends: ['airbnb', 'plugin:node/recommended'],
+  plugins: ['node'],
   parserOptions: {
-    ecmaVersion: "latest",
+    ecmaVersion: 'latest',
   },
-  rules: {},
+  rules: {
+    'node/no-unpublished-require': 0,
+    'class-methods-use-this': 'off',
+    'node/no-unsupported-features/es-syntax': 0,
+    'consistent-return': 'off',
+    'func-names': 'off',
+    'no-unused-vars': 0,
+  },
 };
